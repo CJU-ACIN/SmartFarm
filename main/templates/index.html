@@ -1,0 +1,218 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container-fluid px-4">
+    <h1 class="mt-4">종합 페이지</h1>
+    <h6 id="clock" style="color:black;">clock</h6>
+    <hr>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active">사용중인 센서</li>
+    </ol>
+    <div class="row">
+        <div class="col-xl-3 col-md-6">
+            <div class="card border-secondary text-black mb-4">
+                <div class="card-body"><h6 style="display:inline;" id="temp_humi_sensor" style="color:black;">temp_humi_sensor => off</h6></div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-black stretched-link" href="#">View Details</a>
+                    <div class="small text-black"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card border-secondary text-black mb-4">
+                <div class="card-body"><h6 style="display:inline;" id="light_sensor" style="color:black;">light_sensor => off</h6></div>
+                
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-black stretched-link" href="#">View Details</a>
+                    <div class="small text-black"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card border-secondary text-black mb-4">
+                <div class="card-body"><h6 style="display:inline;" id="rain_sensor" style="color:black;">rain_sensor => off</h6></div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-black stretched-link" href="#">View Details</a>
+                    <div class="small text-black"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card border-secondary text-black mb-4">
+                <div class="card-body">
+                    <h6 style="display:inline;" id="water_sensor" style="color:black;">water_sensor => off</h6>
+                    &nbsp
+                    <img id="water_level" src="" width="30" height="30">
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-black stretched-link" href="#">View Details</a>
+                    <div class="small text-black"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-chart-bar me-1"></i>
+                    실시간 온습도 센서 값 (Update => 1min)
+                    <div id="first_data_graph" style="display: none">
+                        {% for i in first_data_graph %}
+                            {{i.rev_date}},{{i.humi}},{{i.temp}}/
+                        {% endfor%}
+                    </div>
+                </div>
+                <div class="card-body"><canvas id = "canvas"></canvas></div>
+                    <!--<canvas id="myAreaChart" width="100%" height="40"></canvas>-->
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-chart-bar me-1"></i>
+                    센서 작동 확인 그래프 (Update => 1min)
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card-body">
+                            <div class = "d-flex justify-content-center"><canvas id = "canvas2" ></canvas></div>
+                            <hr>
+                            <div style="text-align : center;"><h6 style="display:inline;" id="temp_sensor_2" style="color:black;">온도 => off</h6></div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card-body">
+                            <div class = "d-flex justify-content-center"><canvas id = "canvas3" ></canvas></div>
+                            <hr>
+                            <div style="text-align : center;"><h6 style="display:inline;" id="humi_sensor_2" style="color:black;">습도 => off</h6></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card-body">
+                            <div class = "d-flex justify-content-center"><canvas id = "canvas4" ></canvas></div>
+                            <hr>
+                            <div style="text-align : center;"><h6 style="display:inline;" id="light_sensor_2" style="color:black;">조도 => off</h6></div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card-body">
+                            <div class = "d-flex justify-content-center"><canvas id = "canvas5" ></canvas></div>
+                            <hr>
+                            <div style="text-align : center;"><h6 style="display:inline;" id="rain_sensor_2" style="color:black;">비 => off</h6></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <i class="fas fa-chart-bar me-1"></i>
+                                실시간 이미지 확인
+                            </div>
+                            <div class="col-6">
+                                <form action="/" method="POST">
+                                    <input class="window_open" type="submit" name="button" value="사진"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class = "d-flex justify-content-center">
+                            <img id="image" src="" width="590" height="442">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <i class="fas fa-chart-bar me-1"></i>
+                                창문 환기 시스템 (Unit => cm)
+                            </div>
+                            <div class="col-6">
+                                <form action="/" method="POST">
+                                    <input class="window_close" type="submit" name="button" value="close">
+                                    <input class="window_open" type="submit" name="button" value="open">
+                                    <input type="text" id="length" name="length" minlength="1" maxlength="3" size = "5" value="">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        현재상태 : <h6 style="display:inline;" id="actuator_cm" style="color:black;">아직 정보가 없습니다.</h6>
+                        <canvas id = "canvas6" ></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <i class="fas fa-chart-bar me-1"></i>
+                                급수 시스템 (Unit => sec)
+                            </div>
+                            <div class="col-6">
+                                <form action="/" method="POST">
+                                    <input class="window_open" type="submit" name="button" value="물 주기">
+                                    <input type="text" id="water" name="water_active" minlength="1" maxlength="3" size = "5" value="">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        현재상태 : <h6 style="display:inline;" id="water_sensor2" style="color:black;">water_sensor => off</h6>
+                        &nbsp
+                        <img id="water_level" src="" width="30" height="30">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <i class="fas fa-chart-bar me-1"></i>
+                                전등 제어 시스템
+                            </div>
+                            <div class="col-6">
+                                <form action="/" method="POST">
+                                    <input class="window_open" type="submit" onclick="standlight('off')" name="button" value="OFF"/>
+                                    <input class="window_open" type="submit" onclick="standlight('on')" name="button" value="ON"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        현재상태 : <h6 style="display:inline;" id="standlight" style="color:black;">light => off</h6>
+                        &nbsp
+                        <img id="standlight_img" src="" width="30" height="30">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="col-xl-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-chart-bar me-1"></i>
+                    없음
+                </div>
+                <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+            </div>
+        </div>-->
+
+    </div>
+</div>
+{% endblock %}

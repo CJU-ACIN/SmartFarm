@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container-fluid px-4">
+    <h1 class="mt-4">이미지 종합 데이터</h1>
+    <hr>
+    <div class="card mb-4">
+        <div class="card-header">  
+            <i class="fas fa-table me-1"></i>
+            <b>{{date}} 데이터</b>
+        </div>
+
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">이미지</th>
+                        <th scope="col">병충해 여부</th>
+                        <th scope="col">날짜</th>
+                        <th scope="col">온도</th>
+                        <th scope="col">습도</th>
+                        <th scope="col">조도</th>
+                        <th scope="col">강수 여부</th>
+                        <th scope="col">물탱크</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for s in sensor_data %}
+                        {% for i in data %}
+                            <tr>
+                                <td scope="row"><img id="image" src={{ url_for('static', filename=i.image_path.split('static/')[-1]) }} width="590" height="442"></td>
+                                <td scope="row">{{i.result}}</td>
+                                <td scope="row">{{s.rev_date}}</td>
+                                <td scope="row">{{s.temp}}</td>
+                                <td scope="row">{{s.humi}}</td>
+                                <td scope="row">{{s.light}}</td>
+                                <td scope="row">{{s.rain}}</td>
+                                <td scope="row">{{s.water}}</td>
+                            </tr>
+                        {% endfor %}
+                    {% endfor %}
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
