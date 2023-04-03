@@ -52,8 +52,10 @@ class Image(threading.Thread):
                 # 클라이언트에서 받아온 값을 디코딩 
                 # cv2.imwrite("./out.jpg", msg)
                 print("이미지 생성")
-                f = open(f'{path}{now_date}/output_{count}.jpg', "wb")
-                f.write(msg.payload)
+                
+                with open(f'{path}{now_date}/output_{count}.jpg', "wb") as f:
+                    f.write(msg.payload)
+               
                 print(f"Image Received {count}")
                 f.close()
                 image_path = f'{path}{now_date}/output_{count}.jpg'
@@ -87,5 +89,5 @@ class Image(threading.Thread):
         # port: 1883 에 연결
         client.connect('broker.hivemq.com', 1883)
         # test/send_data 라는 topic 구독
-        client.subscribe('/test102234', 2)
+        client.subscribe('/test1022340555', 1)
         client.loop_forever()
