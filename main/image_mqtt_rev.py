@@ -6,11 +6,21 @@ import paho.mqtt.client as mqtt
 from pymongo import MongoClient
 
 from AI_model import Classification
+import Log
+
+logger = Log.create_logger('image')
 
 class Image(threading.Thread):
+    def __init__(self, name):
+        super().__init__()
+        self.name = name
+
     def run(self):
+        logger.info(f"sub thread start {threading.currentThread().getName()}")
+
         path = os.getcwd() + "/static/picture/"
-        print(path)
+        logger.info(path)
+
         global count
         count = 0 
 
@@ -24,17 +34,17 @@ class Image(threading.Thread):
 
         def on_connect(client, userdata, flags, rc):
             if rc == 0:
-                print("이미지 클라이언트와 연결 되었습니다.")
+                logger.info("이미지 리시버가 클라이언트와 연결 되었습니다.")
             else:
-                print("Bad connection Returned code=", rc)
+                logger.info(f"Bad connection Returned code={rc}")
 
 
         def on_disconnect(client, userdata, flags, rc=0):
-            print("연결이 해제 되었습니다.")
+            logger.info("이미지 리시버가 클라이언트와 해제 되었습니다.")
 
 
         def on_subscribe(client, userdata, mid, granted_qos):
-            print("연결 상태 : " + str(mid) + " " + str(granted_qos))
+            logger.info(f"연결 상태 : {str(mid)} {str(granted_qos)}")
 
 
         def on_message(client, userdata, msg):
@@ -44,20 +54,18 @@ class Image(threading.Thread):
                 now_date = now.strftime('%Y-%m-%d_%H_%M')
                 now_db_date = now.strptime(now_date,'%Y-%m-%d_%H_%M')
                 os.mkdir(f"{path}{now_date}")
-                print("이미지 폴더 생성")
+                logger.info("이미지 폴더 생성")
             elif str(msg.payload) == "b'last_img'": 
                 count = 0
-                print("마지막 이미지 생성")
+                logger.info("마지막 이미지 생성")
             else:
                 # 클라이언트에서 받아온 값을 디코딩 
                 # cv2.imwrite("./out.jpg", msg)
-                print("이미지 생성")
-                
+                logger.info("이미지 생성")
                 with open(f'{path}{now_date}/output_{count}.jpg', "wb") as f:
                     f.write(msg.payload)
-               
-                print(f"Image Received {count}")
-                f.close()
+                logger.info(f"Image Received {count}")
+
                 image_path = f'{path}{now_date}/output_{count}.jpg'
 
                 # 받아온 사진 병충해 여부 판단 
@@ -65,7 +73,7 @@ class Image(threading.Thread):
 
                 send_data = image_path.split("/")[3:]
                 data = {"image_path":image_path, "image_date": now_db_date, "result": result}
-                print(image_path)
+                logger.info(image_path)
                 count += 1
                     
                 # DB에 저장
@@ -84,10 +92,11 @@ class Image(threading.Thread):
         client.on_disconnect = on_disconnect
         client.on_subscribe = on_subscribe
         client.on_message = on_message
-        # 로컬 아닌, 원격 mqtt broker에 연결
-        # address : broker.hivemq.com
-        # port: 1883 에 연결
+
         client.connect('broker.hivemq.com', 1883)
-        # test/send_data 라는 topic 구독
-        client.subscribe('/test1022340555', 1)
+
+        client.subscribe('/test102234', 1)
+
         client.loop_forever()
+
+        logger.info(f"sub thread end {threading.currentThread().getName()}")

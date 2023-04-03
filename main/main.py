@@ -1,15 +1,17 @@
-from flask import *
-from pymongo import MongoClient
 from datetime import datetime, timedelta
 from time import sleep
-from controller import mqtt_controller
-from sensor_rev import Sensor
 from threading import Thread
 import json, math
-from image_controller import mqtt_image_start
-from image_mqtt_rev import Image
-from light_controller import mqtt_standlight
 
+from flask import *
+from pymongo import MongoClient
+
+from controller import mqtt_controller
+# from sensor_rev import Sensor
+from image_controller import mqtt_image_start
+# from image_mqtt_rev import Image
+from light_controller import mqtt_standlight
+import Log
 app = Flask(__name__)
 
 # 몽고 DB 연결
@@ -22,6 +24,8 @@ db_col_actuator = db.test_data_actuator
 db_col_images = db.test_data_images
 db_col_images_date = db.test_data_images_date
 db_col_standlight = db.test_data_standlight
+
+logger = Log.create_logger('main')
 
 # 메인 페이지
 @app.route('/',methods=['POST','GET'])
@@ -42,7 +46,8 @@ def graph() :
                 val1 = 'open'
 
             val = val1 +" "+ val2
-            print(val)
+            logger.info(val)
+
             with mqtt_controller(val,'test/actuator') as m:
                 m.main()
 
@@ -55,7 +60,7 @@ def graph() :
             if request.form['button'] == '물 주기':
                 with mqtt_controller(val, 'test/send_data') as m:
                     m.main()
-                    print("물 주기")
+                    logger.info("물 주기")
 
         except : # 수중 모터(물주기)를 작동시키지 않았을때
             pass
@@ -64,7 +69,8 @@ def graph() :
             if request.form['button'] == '사진':
                 with mqtt_image_start() as m:
                     m.main()
-                    print("사진 찍기를 시작합니다.")
+                    logger.info("사진 찍기를 시작합니다.")
+                    
         except :
             pass
 
@@ -75,7 +81,7 @@ def graph() :
                 with mqtt_standlight(val) as m:
                     m.main()
                     data = {"stand_light" : 1}
-                    print("불을 켰습니다")
+                    logger.info("불을 켰습니다.")
 
             elif request.form['button'] == 'OFF':
                 val = request.form['button']
@@ -83,10 +89,10 @@ def graph() :
                 with mqtt_standlight(val) as m:
                     m.main()
                     data = {"stand_light" : 0}
-                    print("불을 껐습니다")
+                    logger.info("불을 껐습니다")
             
             db_col_standlight.insert_one(data)
-            print("[조명] 작업 완료")
+            logger.info("[조명] 작업 완료")
 
         except :
             pass
@@ -175,7 +181,7 @@ def image_db() :
     start_date = datetime.strptime(start_date, "%Y-%m-%d")
     end_date = datetime.strptime(end_date, "%Y-%m-%d")
 
-    print(f'{start_date}, {end_date}')
+    logger.info(f'{start_date}, {end_date}')
 
     send_start_date = str(start_date).split(" ")[0]
     send_end_date = str(end_date).split(" ")[0]
@@ -242,7 +248,7 @@ def chart_data() :
             # 일단 10초 동안 물을 보충함 => 최대로 물을 보충 할 수 있게 계산 필요
             with mqtt_controller(10, 'test/send_data') as m:
                 m.main()
-                print("물을 자동으로 보충합니다.")
+                logger.info('물을 자동으로 보충합니다.')
         else :
             water = "물 충분함"
 
@@ -296,15 +302,6 @@ def actuator() :
     return Response(generate_raw_data(), mimetype='text/event-stream')
 
 if __name__ == '__main__' :
-
-    # 센서 값 받아오는 sensor_rev.py 실행
-    temp = Sensor()
-    temp.daemon = False
-    temp.start()
-
-    temp2 = Image()
-    temp2.daemon = False
-    temp2.start()
 
     # 플라스크 실행
     kwargs = {'threaded':True, 'debug':True}
