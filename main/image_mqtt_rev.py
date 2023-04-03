@@ -95,7 +95,7 @@ class Image(threading.Thread):
 
         client.connect('broker.hivemq.com', 1883)
 
-        client.subscribe('/test102234', 1)
+        client.subscribe('/test1022340555', 1)
 
         client.loop_forever()
 
