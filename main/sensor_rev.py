@@ -27,7 +27,7 @@ class Sensor(threading.Thread):
         collection2 = mdb2.test_data_actuator
 
         #파이썬에서 mongodb로 연결한다. 27017은 mongodb에서 설정한 포트번호
-        # connect_to = MongoClient("mongodb://203.252.230.243:27017/")
+
         # 콜백 함수 설정 on_connect(브로커에 접속), on_disconnect(브로커에 접속중료), on_subscribe(topic 구독), on_message(발행된 메세지가 들어왔을 때)
         def on_connect(client, userdata, flags, rc):
             if rc == 0:

@@ -15,7 +15,7 @@ def create_logger(logger_name):
     logger.addHandler(stream_handler)
 
     # log를 파일에 출력
-    file_handler = logging.FileHandler(f'{logger_name}.log')
+    file_handler = logging.FileHandler(f'./log/{logger_name}.log')
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
 

@@ -1,0 +1,1206 @@
+[2023-04-04 02:52:39 +0900] [3130] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 02:52:39 +0900] [3130] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (3130)
+[2023-04-04 02:52:39 +0900] [3130] [INFO] Using worker: gthread
+[2023-04-04 02:52:39 +0900] [3133] [INFO] Booting worker with pid: 3133
+[2023-04-04 02:52:39 +0900] [3134] [INFO] Booting worker with pid: 3134
+[2023-04-04 02:52:39 +0900] [3135] [INFO] Booting worker with pid: 3135
+[2023-04-04 02:52:39 +0900] [3142] [INFO] Booting worker with pid: 3142
+[2023-04-04 02:52:39 +0900] [3143] [INFO] Booting worker with pid: 3143
+[2023-04-04 02:52:39 +0900] [3156] [INFO] Booting worker with pid: 3156
+[2023-04-04 02:52:39 +0900] [3157] [INFO] Booting worker with pid: 3157
+[2023-04-04 02:52:39 +0900] [3163] [INFO] Booting worker with pid: 3163
+[2023-04-04 02:53:56 +0900] [3130] [INFO] Handling signal: term
+[2023-04-04 02:53:56 +0900] [3133] [INFO] Worker exiting (pid: 3133)
+[2023-04-04 02:53:56 +0900] [3134] [INFO] Worker exiting (pid: 3134)
+[2023-04-04 02:53:56 +0900] [3135] [INFO] Worker exiting (pid: 3135)
+[2023-04-04 02:53:56 +0900] [3142] [INFO] Worker exiting (pid: 3142)
+[2023-04-04 02:53:56 +0900] [3143] [INFO] Worker exiting (pid: 3143)
+[2023-04-04 02:53:56 +0900] [3156] [INFO] Worker exiting (pid: 3156)
+[2023-04-04 02:53:56 +0900] [3157] [INFO] Worker exiting (pid: 3157)
+[2023-04-04 02:53:56 +0900] [3163] [INFO] Worker exiting (pid: 3163)
+[2023-04-04 02:53:57 +0900] [3130] [INFO] Shutting down: Master
+[2023-04-04 02:53:57 +0900] [3425] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 02:53:57 +0900] [3425] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (3425)
+[2023-04-04 02:53:57 +0900] [3425] [INFO] Using worker: gthread
+[2023-04-04 02:53:57 +0900] [3429] [INFO] Booting worker with pid: 3429
+[2023-04-04 02:53:57 +0900] [3430] [INFO] Booting worker with pid: 3430
+[2023-04-04 02:53:57 +0900] [3431] [INFO] Booting worker with pid: 3431
+[2023-04-04 02:53:57 +0900] [3444] [INFO] Booting worker with pid: 3444
+[2023-04-04 02:53:57 +0900] [3451] [INFO] Booting worker with pid: 3451
+[2023-04-04 02:53:57 +0900] [3458] [INFO] Booting worker with pid: 3458
+[2023-04-04 02:53:57 +0900] [3459] [INFO] Booting worker with pid: 3459
+[2023-04-04 02:53:57 +0900] [3466] [INFO] Booting worker with pid: 3466
+[2023-04-04 02:56:12 +0900] [3425] [INFO] Handling signal: term
+[2023-04-04 02:56:12 +0900] [3429] [INFO] Worker exiting (pid: 3429)
+[2023-04-04 02:56:12 +0900] [3430] [INFO] Worker exiting (pid: 3430)
+[2023-04-04 02:56:12 +0900] [3431] [INFO] Worker exiting (pid: 3431)
+[2023-04-04 02:56:12 +0900] [3444] [INFO] Worker exiting (pid: 3444)
+[2023-04-04 02:56:13 +0900] [3451] [INFO] Worker exiting (pid: 3451)
+[2023-04-04 02:56:13 +0900] [3458] [INFO] Worker exiting (pid: 3458)
+[2023-04-04 02:56:13 +0900] [3459] [INFO] Worker exiting (pid: 3459)
+[2023-04-04 02:56:13 +0900] [3466] [INFO] Worker exiting (pid: 3466)
+[2023-04-04 02:56:13 +0900] [3425] [INFO] Shutting down: Master
+[2023-04-04 02:56:13 +0900] [3836] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 02:56:13 +0900] [3836] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (3836)
+[2023-04-04 02:56:13 +0900] [3836] [INFO] Using worker: gthread
+[2023-04-04 02:56:13 +0900] [3839] [INFO] Booting worker with pid: 3839
+[2023-04-04 02:56:14 +0900] [3841] [INFO] Booting worker with pid: 3841
+[2023-04-04 02:56:14 +0900] [3848] [INFO] Booting worker with pid: 3848
+[2023-04-04 02:56:14 +0900] [3855] [INFO] Booting worker with pid: 3855
+[2023-04-04 02:56:14 +0900] [3862] [INFO] Booting worker with pid: 3862
+[2023-04-04 02:56:14 +0900] [3869] [INFO] Booting worker with pid: 3869
+[2023-04-04 02:56:14 +0900] [3876] [INFO] Booting worker with pid: 3876
+[2023-04-04 02:56:14 +0900] [3877] [INFO] Booting worker with pid: 3877
+[2023-04-04 03:12:37 +0900] [3841] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/Log.py modified
+[2023-04-04 03:12:37 +0900] [3848] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/Log.py modified
+[2023-04-04 03:12:37 +0900] [3839] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/Log.py modified
+[2023-04-04 03:12:37 +0900] [3839] [INFO] Worker exiting (pid: 3839)
+[2023-04-04 03:12:37 +0900] [3841] [INFO] Worker exiting (pid: 3841)
+[2023-04-04 03:12:37 +0900] [3848] [INFO] Worker exiting (pid: 3848)
+[2023-04-04 03:12:38 +0900] [3855] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/Log.py modified
+[2023-04-04 03:12:38 +0900] [3862] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/Log.py modified
+[2023-04-04 03:12:38 +0900] [3877] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/Log.py modified
+[2023-04-04 03:12:38 +0900] [3876] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/Log.py modified
+[2023-04-04 03:12:38 +0900] [3869] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/Log.py modified
+[2023-04-04 03:12:38 +0900] [3877] [INFO] Worker exiting (pid: 3877)
+[2023-04-04 03:12:38 +0900] [7260] [INFO] Booting worker with pid: 7260
+[2023-04-04 03:12:38 +0900] [7261] [INFO] Booting worker with pid: 7261
+[2023-04-04 03:12:38 +0900] [7260] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/gthread.py", line 92, in init_process
+    super().init_process()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 28, in <module>
+    logger = Log.create_logger('main')
+  File "/home/smartfarm/바탕화면/SmartFarm/main/Log.py", line 18, in create_logger
+    file_handler = logging.FileHandler(f'./log/{logger_name}.log')
+  File "/usr/lib/python3.8/logging/__init__.py", line 1147, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python3.8/logging/__init__.py", line 1176, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/smartfarm/바탕화면/SmartFarm/main/log/main.log'
+[2023-04-04 03:12:38 +0900] [7260] [INFO] Worker exiting (pid: 7260)
+[2023-04-04 03:12:38 +0900] [7267] [INFO] Booting worker with pid: 7267
+[2023-04-04 03:12:38 +0900] [7261] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/gthread.py", line 92, in init_process
+    super().init_process()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 28, in <module>
+    logger = Log.create_logger('main')
+  File "/home/smartfarm/바탕화면/SmartFarm/main/Log.py", line 18, in create_logger
+    file_handler = logging.FileHandler(f'./log/{logger_name}.log')
+  File "/usr/lib/python3.8/logging/__init__.py", line 1147, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python3.8/logging/__init__.py", line 1176, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/smartfarm/바탕화면/SmartFarm/main/log/main.log'
+[2023-04-04 03:12:38 +0900] [7261] [INFO] Worker exiting (pid: 7261)
+[2023-04-04 03:12:38 +0900] [7267] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/gthread.py", line 92, in init_process
+    super().init_process()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 28, in <module>
+    logger = Log.create_logger('main')
+  File "/home/smartfarm/바탕화면/SmartFarm/main/Log.py", line 18, in create_logger
+    file_handler = logging.FileHandler(f'./log/{logger_name}.log')
+  File "/usr/lib/python3.8/logging/__init__.py", line 1147, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python3.8/logging/__init__.py", line 1176, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/smartfarm/바탕화면/SmartFarm/main/log/main.log'
+[2023-04-04 03:12:38 +0900] [7267] [INFO] Worker exiting (pid: 7267)
+[2023-04-04 03:12:38 +0900] [7276] [INFO] Booting worker with pid: 7276
+[2023-04-04 03:12:38 +0900] [7276] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/gthread.py", line 92, in init_process
+    super().init_process()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 28, in <module>
+    logger = Log.create_logger('main')
+  File "/home/smartfarm/바탕화면/SmartFarm/main/Log.py", line 18, in create_logger
+    file_handler = logging.FileHandler(f'./log/{logger_name}.log')
+  File "/usr/lib/python3.8/logging/__init__.py", line 1147, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python3.8/logging/__init__.py", line 1176, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/smartfarm/바탕화면/SmartFarm/main/log/main.log'
+[2023-04-04 03:12:38 +0900] [7276] [INFO] Worker exiting (pid: 7276)
+[2023-04-04 03:12:38 +0900] [3876] [INFO] Worker exiting (pid: 3876)
+[2023-04-04 03:12:38 +0900] [3869] [INFO] Worker exiting (pid: 3869)
+[2023-04-04 03:12:38 +0900] [3862] [INFO] Worker exiting (pid: 3862)
+[2023-04-04 03:13:08 +0900] [3855] [INFO] Worker exiting (pid: 3855)
+[2023-04-04 03:20:43 +0900] [8039] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 03:20:43 +0900] [8039] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (8039)
+[2023-04-04 03:20:43 +0900] [8039] [INFO] Using worker: gthread
+[2023-04-04 03:20:43 +0900] [8042] [INFO] Booting worker with pid: 8042
+[2023-04-04 03:20:43 +0900] [8043] [INFO] Booting worker with pid: 8043
+[2023-04-04 03:20:43 +0900] [8050] [INFO] Booting worker with pid: 8050
+[2023-04-04 03:20:43 +0900] [8051] [INFO] Booting worker with pid: 8051
+[2023-04-04 03:20:44 +0900] [8052] [INFO] Booting worker with pid: 8052
+[2023-04-04 03:20:44 +0900] [8061] [INFO] Booting worker with pid: 8061
+[2023-04-04 03:20:44 +0900] [8078] [INFO] Booting worker with pid: 8078
+[2023-04-04 03:20:44 +0900] [8079] [INFO] Booting worker with pid: 8079
+[2023-04-04 03:23:12 +0900] [8039] [INFO] Handling signal: term
+[2023-04-04 03:23:13 +0900] [8042] [INFO] Worker exiting (pid: 8042)
+[2023-04-04 03:23:13 +0900] [8052] [INFO] Worker exiting (pid: 8052)
+[2023-04-04 03:23:13 +0900] [8051] [INFO] Worker exiting (pid: 8051)
+[2023-04-04 03:23:13 +0900] [8079] [INFO] Worker exiting (pid: 8079)
+[2023-04-04 03:23:13 +0900] [8043] [INFO] Worker exiting (pid: 8043)
+[2023-04-04 03:23:13 +0900] [8078] [INFO] Worker exiting (pid: 8078)
+[2023-04-04 03:23:13 +0900] [8061] [INFO] Worker exiting (pid: 8061)
+[2023-04-04 03:23:42 +0900] [8039] [INFO] Shutting down: Master
+[2023-04-04 03:23:43 +0900] [8424] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 03:23:43 +0900] [8424] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (8424)
+[2023-04-04 03:23:43 +0900] [8424] [INFO] Using worker: gthread
+[2023-04-04 03:23:43 +0900] [8428] [INFO] Booting worker with pid: 8428
+[2023-04-04 03:23:43 +0900] [8429] [INFO] Booting worker with pid: 8429
+[2023-04-04 03:23:43 +0900] [8430] [INFO] Booting worker with pid: 8430
+[2023-04-04 03:23:43 +0900] [8443] [INFO] Booting worker with pid: 8443
+[2023-04-04 03:23:43 +0900] [8450] [INFO] Booting worker with pid: 8450
+[2023-04-04 03:23:43 +0900] [8451] [INFO] Booting worker with pid: 8451
+[2023-04-04 03:23:43 +0900] [8458] [INFO] Booting worker with pid: 8458
+[2023-04-04 03:23:43 +0900] [8459] [INFO] Booting worker with pid: 8459
+[2023-04-04 03:25:12 +0900] [8424] [INFO] Handling signal: term
+[2023-04-04 03:25:12 +0900] [8443] [INFO] Worker exiting (pid: 8443)
+[2023-04-04 03:25:12 +0900] [8430] [INFO] Worker exiting (pid: 8430)
+[2023-04-04 03:25:12 +0900] [8459] [INFO] Worker exiting (pid: 8459)
+[2023-04-04 03:25:12 +0900] [8429] [INFO] Worker exiting (pid: 8429)
+[2023-04-04 03:25:12 +0900] [8451] [INFO] Worker exiting (pid: 8451)
+[2023-04-04 03:25:12 +0900] [8428] [INFO] Worker exiting (pid: 8428)
+[2023-04-04 03:25:14 +0900] [8450] [INFO] Worker exiting (pid: 8450)
+[2023-04-04 03:25:42 +0900] [8424] [INFO] Shutting down: Master
+[2023-04-04 03:25:42 +0900] [8701] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 03:25:42 +0900] [8701] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (8701)
+[2023-04-04 03:25:42 +0900] [8701] [INFO] Using worker: gthread
+[2023-04-04 03:25:42 +0900] [8704] [INFO] Booting worker with pid: 8704
+[2023-04-04 03:25:42 +0900] [8705] [INFO] Booting worker with pid: 8705
+[2023-04-04 03:25:42 +0900] [8706] [INFO] Booting worker with pid: 8706
+[2023-04-04 03:25:42 +0900] [8713] [INFO] Booting worker with pid: 8713
+[2023-04-04 03:25:42 +0900] [8714] [INFO] Booting worker with pid: 8714
+[2023-04-04 03:25:42 +0900] [8727] [INFO] Booting worker with pid: 8727
+[2023-04-04 03:25:42 +0900] [8728] [INFO] Booting worker with pid: 8728
+[2023-04-04 03:25:42 +0900] [8741] [INFO] Booting worker with pid: 8741
+[2023-04-04 03:26:57 +0900] [8701] [INFO] Handling signal: term
+[2023-04-04 03:26:57 +0900] [8705] [INFO] Worker exiting (pid: 8705)
+[2023-04-04 03:26:57 +0900] [8728] [INFO] Worker exiting (pid: 8728)
+[2023-04-04 03:26:57 +0900] [8704] [INFO] Worker exiting (pid: 8704)
+[2023-04-04 03:26:57 +0900] [8727] [INFO] Worker exiting (pid: 8727)
+[2023-04-04 03:26:57 +0900] [8706] [INFO] Worker exiting (pid: 8706)
+[2023-04-04 03:26:57 +0900] [8741] [INFO] Worker exiting (pid: 8741)
+[2023-04-04 03:26:57 +0900] [8714] [INFO] Worker exiting (pid: 8714)
+[2023-04-04 03:27:27 +0900] [8701] [INFO] Shutting down: Master
+[2023-04-04 03:27:27 +0900] [8938] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 03:27:27 +0900] [8938] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (8938)
+[2023-04-04 03:27:27 +0900] [8938] [INFO] Using worker: gthread
+[2023-04-04 03:27:27 +0900] [8941] [INFO] Booting worker with pid: 8941
+[2023-04-04 03:27:27 +0900] [8942] [INFO] Booting worker with pid: 8942
+[2023-04-04 03:27:27 +0900] [8949] [INFO] Booting worker with pid: 8949
+[2023-04-04 03:27:28 +0900] [8956] [INFO] Booting worker with pid: 8956
+[2023-04-04 03:27:28 +0900] [8963] [INFO] Booting worker with pid: 8963
+[2023-04-04 03:27:28 +0900] [8964] [INFO] Booting worker with pid: 8964
+[2023-04-04 03:27:28 +0900] [8971] [INFO] Booting worker with pid: 8971
+[2023-04-04 03:27:28 +0900] [8972] [INFO] Booting worker with pid: 8972
+[2023-04-04 03:28:31 +0900] [8938] [INFO] Handling signal: term
+[2023-04-04 03:28:32 +0900] [8949] [INFO] Worker exiting (pid: 8949)
+[2023-04-04 03:28:32 +0900] [8963] [INFO] Worker exiting (pid: 8963)
+[2023-04-04 03:28:32 +0900] [8956] [INFO] Worker exiting (pid: 8956)
+[2023-04-04 03:28:32 +0900] [8941] [INFO] Worker exiting (pid: 8941)
+[2023-04-04 03:28:32 +0900] [8964] [INFO] Worker exiting (pid: 8964)
+[2023-04-04 03:28:32 +0900] [8942] [INFO] Worker exiting (pid: 8942)
+[2023-04-04 03:28:32 +0900] [8972] [INFO] Worker exiting (pid: 8972)
+[2023-04-04 03:29:01 +0900] [8938] [INFO] Shutting down: Master
+[2023-04-04 03:29:01 +0900] [9177] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 03:29:01 +0900] [9177] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (9177)
+[2023-04-04 03:29:01 +0900] [9177] [INFO] Using worker: gthread
+[2023-04-04 03:29:01 +0900] [9181] [INFO] Booting worker with pid: 9181
+[2023-04-04 03:29:01 +0900] [9182] [INFO] Booting worker with pid: 9182
+[2023-04-04 03:29:01 +0900] [9189] [INFO] Booting worker with pid: 9189
+[2023-04-04 03:29:01 +0900] [9196] [INFO] Booting worker with pid: 9196
+[2023-04-04 03:29:02 +0900] [9203] [INFO] Booting worker with pid: 9203
+[2023-04-04 03:29:02 +0900] [9210] [INFO] Booting worker with pid: 9210
+[2023-04-04 03:29:02 +0900] [9217] [INFO] Booting worker with pid: 9217
+[2023-04-04 03:29:02 +0900] [9218] [INFO] Booting worker with pid: 9218
+[2023-04-04 03:30:02 +0900] [9177] [INFO] Handling signal: term
+[2023-04-04 03:30:02 +0900] [9210] [INFO] Worker exiting (pid: 9210)
+[2023-04-04 03:30:02 +0900] [9182] [INFO] Worker exiting (pid: 9182)
+[2023-04-04 03:30:02 +0900] [9189] [INFO] Worker exiting (pid: 9189)
+[2023-04-04 03:30:02 +0900] [9203] [INFO] Worker exiting (pid: 9203)
+[2023-04-04 03:30:02 +0900] [9181] [INFO] Worker exiting (pid: 9181)
+[2023-04-04 03:30:02 +0900] [9218] [INFO] Worker exiting (pid: 9218)
+[2023-04-04 03:30:04 +0900] [9196] [INFO] Worker exiting (pid: 9196)
+[2023-04-04 03:30:07 +0900] [9217] [INFO] Worker exiting (pid: 9217)
+[2023-04-04 03:30:07 +0900] [9177] [INFO] Shutting down: Master
+[2023-04-04 03:30:07 +0900] [9368] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 03:30:07 +0900] [9368] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (9368)
+[2023-04-04 03:30:07 +0900] [9368] [INFO] Using worker: gthread
+[2023-04-04 03:30:07 +0900] [9371] [INFO] Booting worker with pid: 9371
+[2023-04-04 03:30:07 +0900] [9372] [INFO] Booting worker with pid: 9372
+[2023-04-04 03:30:07 +0900] [9377] [INFO] Booting worker with pid: 9377
+[2023-04-04 03:30:07 +0900] [9380] [INFO] Booting worker with pid: 9380
+[2023-04-04 03:30:07 +0900] [9384] [INFO] Booting worker with pid: 9384
+[2023-04-04 03:30:07 +0900] [9394] [INFO] Booting worker with pid: 9394
+[2023-04-04 03:30:07 +0900] [9408] [INFO] Booting worker with pid: 9408
+[2023-04-04 03:30:08 +0900] [9426] [INFO] Booting worker with pid: 9426
+[2023-04-04 03:36:10 +0900] [9371] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/main.py modified
+[2023-04-04 03:36:10 +0900] [9372] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/main.py modified
+[2023-04-04 03:36:10 +0900] [9377] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/main.py modified
+[2023-04-04 03:36:10 +0900] [9384] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/main.py modified
+[2023-04-04 03:36:10 +0900] [9380] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/main.py modified
+[2023-04-04 03:36:10 +0900] [9394] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/main.py modified
+[2023-04-04 03:36:10 +0900] [9371] [INFO] Worker exiting (pid: 9371)
+[2023-04-04 03:36:10 +0900] [9394] [INFO] Worker exiting (pid: 9394)
+[2023-04-04 03:36:10 +0900] [9372] [INFO] Worker exiting (pid: 9372)
+[2023-04-04 03:36:10 +0900] [9380] [INFO] Worker exiting (pid: 9380)
+[2023-04-04 03:36:10 +0900] [9384] [INFO] Worker exiting (pid: 9384)
+[2023-04-04 03:36:10 +0900] [9377] [INFO] Worker exiting (pid: 9377)
+[2023-04-04 03:36:10 +0900] [9408] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/main.py modified
+[2023-04-04 03:36:10 +0900] [9426] [INFO] Worker reloading: /home/smartfarm/바탕화면/SmartFarm/main/main.py modified
+[2023-04-04 03:36:10 +0900] [9829] [INFO] Booting worker with pid: 9829
+[2023-04-04 03:36:10 +0900] [9830] [INFO] Booting worker with pid: 9830
+[2023-04-04 03:36:10 +0900] [9837] [INFO] Booting worker with pid: 9837
+[2023-04-04 03:36:10 +0900] [9844] [INFO] Booting worker with pid: 9844
+[2023-04-04 03:36:10 +0900] [9851] [INFO] Booting worker with pid: 9851
+[2023-04-04 03:36:11 +0900] [9852] [INFO] Booting worker with pid: 9852
+[2023-04-04 03:36:11 +0900] [9426] [INFO] Worker exiting (pid: 9426)
+[2023-04-04 03:36:11 +0900] [9408] [INFO] Worker exiting (pid: 9408)
+[2023-04-04 03:36:11 +0900] [9871] [INFO] Booting worker with pid: 9871
+[2023-04-04 03:36:11 +0900] [9878] [INFO] Booting worker with pid: 9878
+[2023-04-04 18:54:44 +0900] [9368] [INFO] Handling signal: term
+[2023-04-04 18:54:44 +0900] [9852] [INFO] Worker exiting (pid: 9852)
+[2023-04-04 18:54:44 +0900] [9830] [INFO] Worker exiting (pid: 9830)
+[2023-04-04 18:54:44 +0900] [9851] [INFO] Worker exiting (pid: 9851)
+[2023-04-04 18:54:44 +0900] [9871] [INFO] Worker exiting (pid: 9871)
+[2023-04-04 18:54:44 +0900] [9844] [INFO] Worker exiting (pid: 9844)
+[2023-04-04 18:54:46 +0900] [9829] [INFO] Worker exiting (pid: 9829)
+[2023-04-04 18:54:46 +0900] [9878] [INFO] Worker exiting (pid: 9878)
+[2023-04-04 18:55:14 +0900] [9368] [INFO] Shutting down: Master
+[2023-04-04 18:55:14 +0900] [23259] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 18:55:14 +0900] [23259] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (23259)
+[2023-04-04 18:55:14 +0900] [23259] [INFO] Using worker: gthread
+[2023-04-04 18:55:14 +0900] [23262] [INFO] Booting worker with pid: 23262
+[2023-04-04 18:55:14 +0900] [23263] [INFO] Booting worker with pid: 23263
+[2023-04-04 18:55:14 +0900] [23264] [INFO] Booting worker with pid: 23264
+[2023-04-04 18:55:14 +0900] [23271] [INFO] Booting worker with pid: 23271
+[2023-04-04 18:55:14 +0900] [23272] [INFO] Booting worker with pid: 23272
+[2023-04-04 18:55:14 +0900] [23279] [INFO] Booting worker with pid: 23279
+[2023-04-04 18:55:14 +0900] [23286] [INFO] Booting worker with pid: 23286
+[2023-04-04 18:55:14 +0900] [23293] [INFO] Booting worker with pid: 23293
+[2023-04-04 18:59:00 +0900] [23259] [INFO] Handling signal: term
+[2023-04-04 18:59:00 +0900] [23271] [INFO] Worker exiting (pid: 23271)
+[2023-04-04 18:59:00 +0900] [23262] [INFO] Worker exiting (pid: 23262)
+[2023-04-04 18:59:00 +0900] [23272] [INFO] Worker exiting (pid: 23272)
+[2023-04-04 18:59:00 +0900] [23293] [INFO] Worker exiting (pid: 23293)
+[2023-04-04 18:59:00 +0900] [23264] [INFO] Worker exiting (pid: 23264)
+[2023-04-04 18:59:00 +0900] [23279] [INFO] Worker exiting (pid: 23279)
+[2023-04-04 18:59:00 +0900] [23286] [INFO] Worker exiting (pid: 23286)
+[2023-04-04 18:59:10 +0900] [23263] [INFO] Worker exiting (pid: 23263)
+[2023-04-04 18:59:11 +0900] [23259] [INFO] Shutting down: Master
+[2023-04-04 18:59:11 +0900] [23579] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 18:59:11 +0900] [23579] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (23579)
+[2023-04-04 18:59:11 +0900] [23579] [INFO] Using worker: gthread
+[2023-04-04 18:59:11 +0900] [23582] [INFO] Booting worker with pid: 23582
+[2023-04-04 18:59:11 +0900] [23583] [INFO] Booting worker with pid: 23583
+[2023-04-04 18:59:11 +0900] [23590] [INFO] Booting worker with pid: 23590
+[2023-04-04 18:59:11 +0900] [23591] [INFO] Booting worker with pid: 23591
+[2023-04-04 18:59:11 +0900] [23598] [INFO] Booting worker with pid: 23598
+[2023-04-04 18:59:11 +0900] [23605] [INFO] Booting worker with pid: 23605
+[2023-04-04 18:59:11 +0900] [23612] [INFO] Booting worker with pid: 23612
+[2023-04-04 18:59:11 +0900] [23619] [INFO] Booting worker with pid: 23619
+[2023-04-04 19:00:20 +0900] [23579] [INFO] Handling signal: term
+[2023-04-04 19:00:20 +0900] [23582] [INFO] Worker exiting (pid: 23582)
+[2023-04-04 19:00:20 +0900] [23591] [INFO] Worker exiting (pid: 23591)
+[2023-04-04 19:00:20 +0900] [23583] [INFO] Worker exiting (pid: 23583)
+[2023-04-04 19:00:20 +0900] [23590] [INFO] Worker exiting (pid: 23590)
+[2023-04-04 19:00:20 +0900] [23619] [INFO] Worker exiting (pid: 23619)
+[2023-04-04 19:00:20 +0900] [23598] [INFO] Worker exiting (pid: 23598)
+[2023-04-04 19:00:20 +0900] [23612] [INFO] Worker exiting (pid: 23612)
+[2023-04-04 19:00:20 +0900] [23605] [INFO] Worker exiting (pid: 23605)
+[2023-04-04 19:00:21 +0900] [23579] [INFO] Shutting down: Master
+[2023-04-04 19:00:21 +0900] [23719] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:00:21 +0900] [23719] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (23719)
+[2023-04-04 19:00:21 +0900] [23719] [INFO] Using worker: gthread
+[2023-04-04 19:00:21 +0900] [23722] [INFO] Booting worker with pid: 23722
+[2023-04-04 19:00:21 +0900] [23723] [INFO] Booting worker with pid: 23723
+[2023-04-04 19:00:21 +0900] [23730] [INFO] Booting worker with pid: 23730
+[2023-04-04 19:00:21 +0900] [23731] [INFO] Booting worker with pid: 23731
+[2023-04-04 19:00:21 +0900] [23747] [INFO] Booting worker with pid: 23747
+[2023-04-04 19:00:21 +0900] [23761] [INFO] Booting worker with pid: 23761
+[2023-04-04 19:00:21 +0900] [23770] [INFO] Booting worker with pid: 23770
+[2023-04-04 19:00:21 +0900] [23777] [INFO] Booting worker with pid: 23777
+[2023-04-04 19:09:45 +0900] [23719] [INFO] Handling signal: term
+[2023-04-04 19:09:46 +0900] [23730] [INFO] Worker exiting (pid: 23730)
+[2023-04-04 19:09:46 +0900] [23770] [INFO] Worker exiting (pid: 23770)
+[2023-04-04 19:09:46 +0900] [23761] [INFO] Worker exiting (pid: 23761)
+[2023-04-04 19:09:46 +0900] [23723] [INFO] Worker exiting (pid: 23723)
+[2023-04-04 19:09:46 +0900] [23731] [INFO] Worker exiting (pid: 23731)
+[2023-04-04 19:09:46 +0900] [23722] [INFO] Worker exiting (pid: 23722)
+[2023-04-04 19:09:51 +0900] [23777] [INFO] Worker exiting (pid: 23777)
+[2023-04-04 19:10:16 +0900] [23719] [INFO] Shutting down: Master
+[2023-04-04 19:10:16 +0900] [24241] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:10:16 +0900] [24241] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (24241)
+[2023-04-04 19:10:16 +0900] [24241] [INFO] Using worker: gthread
+[2023-04-04 19:10:16 +0900] [24245] [INFO] Booting worker with pid: 24245
+[2023-04-04 19:10:16 +0900] [24246] [INFO] Booting worker with pid: 24246
+[2023-04-04 19:10:16 +0900] [24253] [INFO] Booting worker with pid: 24253
+[2023-04-04 19:10:16 +0900] [24260] [INFO] Booting worker with pid: 24260
+[2023-04-04 19:10:16 +0900] [24267] [INFO] Booting worker with pid: 24267
+[2023-04-04 19:10:16 +0900] [24274] [INFO] Booting worker with pid: 24274
+[2023-04-04 19:10:16 +0900] [24281] [INFO] Booting worker with pid: 24281
+[2023-04-04 19:10:16 +0900] [24284] [INFO] Booting worker with pid: 24284
+[2023-04-04 19:19:06 +0900] [24241] [INFO] Handling signal: term
+[2023-04-04 19:19:07 +0900] [24246] [INFO] Worker exiting (pid: 24246)
+[2023-04-04 19:19:07 +0900] [24253] [INFO] Worker exiting (pid: 24253)
+[2023-04-04 19:19:07 +0900] [24245] [INFO] Worker exiting (pid: 24245)
+[2023-04-04 19:19:07 +0900] [24267] [INFO] Worker exiting (pid: 24267)
+[2023-04-04 19:19:07 +0900] [24284] [INFO] Worker exiting (pid: 24284)
+[2023-04-04 19:19:07 +0900] [24260] [INFO] Worker exiting (pid: 24260)
+[2023-04-04 19:19:07 +0900] [24274] [INFO] Worker exiting (pid: 24274)
+[2023-04-04 19:19:36 +0900] [24241] [INFO] Shutting down: Master
+[2023-04-04 19:19:36 +0900] [24881] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:19:36 +0900] [24881] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (24881)
+[2023-04-04 19:19:36 +0900] [24881] [INFO] Using worker: gthread
+[2023-04-04 19:19:36 +0900] [24885] [INFO] Booting worker with pid: 24885
+[2023-04-04 19:19:37 +0900] [24886] [INFO] Booting worker with pid: 24886
+[2023-04-04 19:19:37 +0900] [24887] [INFO] Booting worker with pid: 24887
+[2023-04-04 19:19:37 +0900] [24888] [INFO] Booting worker with pid: 24888
+[2023-04-04 19:19:37 +0900] [24901] [INFO] Booting worker with pid: 24901
+[2023-04-04 19:19:37 +0900] [24914] [INFO] Booting worker with pid: 24914
+[2023-04-04 19:19:37 +0900] [24921] [INFO] Booting worker with pid: 24921
+[2023-04-04 19:19:37 +0900] [24928] [INFO] Booting worker with pid: 24928
+[2023-04-04 19:24:32 +0900] [24881] [INFO] Handling signal: term
+[2023-04-04 19:24:33 +0900] [24928] [INFO] Worker exiting (pid: 24928)
+[2023-04-04 19:24:33 +0900] [24914] [INFO] Worker exiting (pid: 24914)
+[2023-04-04 19:24:33 +0900] [24887] [INFO] Worker exiting (pid: 24887)
+[2023-04-04 19:24:33 +0900] [24901] [INFO] Worker exiting (pid: 24901)
+[2023-04-04 19:24:33 +0900] [24921] [INFO] Worker exiting (pid: 24921)
+[2023-04-04 19:24:33 +0900] [24886] [INFO] Worker exiting (pid: 24886)
+[2023-04-04 19:24:33 +0900] [24888] [INFO] Worker exiting (pid: 24888)
+[2023-04-04 19:24:55 +0900] [24885] [INFO] Worker exiting (pid: 24885)
+[2023-04-04 19:24:55 +0900] [24881] [INFO] Shutting down: Master
+[2023-04-04 19:24:55 +0900] [25282] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:24:55 +0900] [25282] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (25282)
+[2023-04-04 19:24:55 +0900] [25282] [INFO] Using worker: gthread
+[2023-04-04 19:24:55 +0900] [25285] [INFO] Booting worker with pid: 25285
+[2023-04-04 19:24:55 +0900] [25286] [INFO] Booting worker with pid: 25286
+[2023-04-04 19:24:55 +0900] [25287] [INFO] Booting worker with pid: 25287
+[2023-04-04 19:24:55 +0900] [25300] [INFO] Booting worker with pid: 25300
+[2023-04-04 19:24:55 +0900] [25307] [INFO] Booting worker with pid: 25307
+[2023-04-04 19:24:56 +0900] [25314] [INFO] Booting worker with pid: 25314
+[2023-04-04 19:24:56 +0900] [25315] [INFO] Booting worker with pid: 25315
+[2023-04-04 19:24:56 +0900] [25328] [INFO] Booting worker with pid: 25328
+[2023-04-04 19:26:11 +0900] [25282] [INFO] Handling signal: term
+[2023-04-04 19:26:11 +0900] [25300] [INFO] Worker exiting (pid: 25300)
+[2023-04-04 19:26:11 +0900] [25315] [INFO] Worker exiting (pid: 25315)
+[2023-04-04 19:26:11 +0900] [25314] [INFO] Worker exiting (pid: 25314)
+[2023-04-04 19:26:11 +0900] [25285] [INFO] Worker exiting (pid: 25285)
+[2023-04-04 19:26:11 +0900] [25286] [INFO] Worker exiting (pid: 25286)
+[2023-04-04 19:26:11 +0900] [25287] [INFO] Worker exiting (pid: 25287)
+[2023-04-04 19:26:11 +0900] [25307] [INFO] Worker exiting (pid: 25307)
+[2023-04-04 19:26:16 +0900] [25328] [INFO] Worker exiting (pid: 25328)
+[2023-04-04 19:26:16 +0900] [25282] [INFO] Shutting down: Master
+[2023-04-04 19:26:16 +0900] [25469] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:26:16 +0900] [25469] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (25469)
+[2023-04-04 19:26:16 +0900] [25469] [INFO] Using worker: gthread
+[2023-04-04 19:26:16 +0900] [25473] [INFO] Booting worker with pid: 25473
+[2023-04-04 19:26:16 +0900] [25474] [INFO] Booting worker with pid: 25474
+[2023-04-04 19:26:16 +0900] [25481] [INFO] Booting worker with pid: 25481
+[2023-04-04 19:26:16 +0900] [25482] [INFO] Booting worker with pid: 25482
+[2023-04-04 19:26:16 +0900] [25495] [INFO] Booting worker with pid: 25495
+[2023-04-04 19:26:16 +0900] [25502] [INFO] Booting worker with pid: 25502
+[2023-04-04 19:26:17 +0900] [25503] [INFO] Booting worker with pid: 25503
+[2023-04-04 19:26:17 +0900] [25510] [INFO] Booting worker with pid: 25510
+[2023-04-04 19:26:51 +0900] [25469] [INFO] Handling signal: term
+[2023-04-04 19:26:51 +0900] [25481] [INFO] Worker exiting (pid: 25481)
+[2023-04-04 19:26:51 +0900] [25473] [INFO] Worker exiting (pid: 25473)
+[2023-04-04 19:26:51 +0900] [25503] [INFO] Worker exiting (pid: 25503)
+[2023-04-04 19:26:51 +0900] [25502] [INFO] Worker exiting (pid: 25502)
+[2023-04-04 19:26:51 +0900] [25482] [INFO] Worker exiting (pid: 25482)
+[2023-04-04 19:26:51 +0900] [25474] [INFO] Worker exiting (pid: 25474)
+[2023-04-04 19:26:51 +0900] [25495] [INFO] Worker exiting (pid: 25495)
+[2023-04-04 19:27:21 +0900] [25469] [INFO] Shutting down: Master
+[2023-04-04 19:27:21 +0900] [25685] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:27:21 +0900] [25685] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (25685)
+[2023-04-04 19:27:21 +0900] [25685] [INFO] Using worker: gthread
+[2023-04-04 19:27:21 +0900] [25689] [INFO] Booting worker with pid: 25689
+[2023-04-04 19:27:21 +0900] [25690] [INFO] Booting worker with pid: 25690
+[2023-04-04 19:27:21 +0900] [25691] [INFO] Booting worker with pid: 25691
+[2023-04-04 19:27:21 +0900] [25692] [INFO] Booting worker with pid: 25692
+[2023-04-04 19:27:21 +0900] [25693] [INFO] Booting worker with pid: 25693
+[2023-04-04 19:27:21 +0900] [25712] [INFO] Booting worker with pid: 25712
+[2023-04-04 19:27:21 +0900] [25725] [INFO] Booting worker with pid: 25725
+[2023-04-04 19:27:21 +0900] [25726] [INFO] Booting worker with pid: 25726
+[2023-04-04 19:30:35 +0900] [25685] [INFO] Handling signal: term
+[2023-04-04 19:30:36 +0900] [25690] [INFO] Worker exiting (pid: 25690)
+[2023-04-04 19:30:36 +0900] [25692] [INFO] Worker exiting (pid: 25692)
+[2023-04-04 19:30:36 +0900] [25689] [INFO] Worker exiting (pid: 25689)
+[2023-04-04 19:30:36 +0900] [25712] [INFO] Worker exiting (pid: 25712)
+[2023-04-04 19:30:36 +0900] [25693] [INFO] Worker exiting (pid: 25693)
+[2023-04-04 19:30:36 +0900] [25691] [INFO] Worker exiting (pid: 25691)
+[2023-04-04 19:30:36 +0900] [25726] [INFO] Worker exiting (pid: 25726)
+[2023-04-04 19:30:50 +0900] [25725] [INFO] Worker exiting (pid: 25725)
+[2023-04-04 19:30:50 +0900] [25685] [INFO] Shutting down: Master
+[2023-04-04 19:30:51 +0900] [26086] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:30:51 +0900] [26086] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (26086)
+[2023-04-04 19:30:51 +0900] [26086] [INFO] Using worker: gthread
+[2023-04-04 19:30:51 +0900] [26089] [INFO] Booting worker with pid: 26089
+[2023-04-04 19:30:51 +0900] [26090] [INFO] Booting worker with pid: 26090
+[2023-04-04 19:30:51 +0900] [26097] [INFO] Booting worker with pid: 26097
+[2023-04-04 19:30:51 +0900] [26098] [INFO] Booting worker with pid: 26098
+[2023-04-04 19:30:51 +0900] [26099] [INFO] Booting worker with pid: 26099
+[2023-04-04 19:30:51 +0900] [26106] [INFO] Booting worker with pid: 26106
+[2023-04-04 19:30:51 +0900] [26125] [INFO] Booting worker with pid: 26125
+[2023-04-04 19:30:51 +0900] [26126] [INFO] Booting worker with pid: 26126
+[2023-04-04 19:34:48 +0900] [26086] [INFO] Handling signal: term
+[2023-04-04 19:34:48 +0900] [26106] [INFO] Worker exiting (pid: 26106)
+[2023-04-04 19:34:48 +0900] [26098] [INFO] Worker exiting (pid: 26098)
+[2023-04-04 19:34:48 +0900] [26090] [INFO] Worker exiting (pid: 26090)
+[2023-04-04 19:34:48 +0900] [26125] [INFO] Worker exiting (pid: 26125)
+[2023-04-04 19:34:48 +0900] [26099] [INFO] Worker exiting (pid: 26099)
+[2023-04-04 19:34:48 +0900] [26089] [INFO] Worker exiting (pid: 26089)
+[2023-04-04 19:34:48 +0900] [26097] [INFO] Worker exiting (pid: 26097)
+[2023-04-04 19:34:52 +0900] [26126] [INFO] Worker exiting (pid: 26126)
+[2023-04-04 19:34:52 +0900] [26086] [INFO] Shutting down: Master
+[2023-04-04 19:34:52 +0900] [26396] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:34:52 +0900] [26396] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (26396)
+[2023-04-04 19:34:52 +0900] [26396] [INFO] Using worker: gthread
+[2023-04-04 19:34:52 +0900] [26400] [INFO] Booting worker with pid: 26400
+[2023-04-04 19:34:52 +0900] [26401] [INFO] Booting worker with pid: 26401
+[2023-04-04 19:34:52 +0900] [26402] [INFO] Booting worker with pid: 26402
+[2023-04-04 19:34:52 +0900] [26409] [INFO] Booting worker with pid: 26409
+[2023-04-04 19:34:52 +0900] [26422] [INFO] Booting worker with pid: 26422
+[2023-04-04 19:34:52 +0900] [26429] [INFO] Booting worker with pid: 26429
+[2023-04-04 19:34:52 +0900] [26433] [INFO] Booting worker with pid: 26433
+[2023-04-04 19:34:52 +0900] [26437] [INFO] Booting worker with pid: 26437
+[2023-04-04 19:35:31 +0900] [26396] [INFO] Handling signal: term
+[2023-04-04 19:35:31 +0900] [26437] [INFO] Worker exiting (pid: 26437)
+[2023-04-04 19:35:32 +0900] [26429] [INFO] Worker exiting (pid: 26429)
+[2023-04-04 19:35:32 +0900] [26400] [INFO] Worker exiting (pid: 26400)
+[2023-04-04 19:35:32 +0900] [26433] [INFO] Worker exiting (pid: 26433)
+[2023-04-04 19:35:32 +0900] [26401] [INFO] Worker exiting (pid: 26401)
+[2023-04-04 19:35:32 +0900] [26422] [INFO] Worker exiting (pid: 26422)
+[2023-04-04 19:35:33 +0900] [26409] [INFO] Worker exiting (pid: 26409)
+[2023-04-04 19:35:56 +0900] [26402] [INFO] Worker exiting (pid: 26402)
+[2023-04-04 19:35:56 +0900] [26396] [INFO] Shutting down: Master
+[2023-04-04 19:35:56 +0900] [26592] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:35:56 +0900] [26592] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (26592)
+[2023-04-04 19:35:56 +0900] [26592] [INFO] Using worker: gthread
+[2023-04-04 19:35:56 +0900] [26596] [INFO] Booting worker with pid: 26596
+[2023-04-04 19:35:56 +0900] [26597] [INFO] Booting worker with pid: 26597
+[2023-04-04 19:35:56 +0900] [26598] [INFO] Booting worker with pid: 26598
+[2023-04-04 19:35:56 +0900] [26605] [INFO] Booting worker with pid: 26605
+[2023-04-04 19:35:56 +0900] [26618] [INFO] Booting worker with pid: 26618
+[2023-04-04 19:35:56 +0900] [26625] [INFO] Booting worker with pid: 26625
+[2023-04-04 19:35:56 +0900] [26626] [INFO] Booting worker with pid: 26626
+[2023-04-04 19:35:56 +0900] [26627] [INFO] Booting worker with pid: 26627
+[2023-04-04 19:39:35 +0900] [26592] [INFO] Handling signal: term
+[2023-04-04 19:39:36 +0900] [26618] [INFO] Worker exiting (pid: 26618)
+[2023-04-04 19:39:36 +0900] [26626] [INFO] Worker exiting (pid: 26626)
+[2023-04-04 19:39:36 +0900] [26597] [INFO] Worker exiting (pid: 26597)
+[2023-04-04 19:39:36 +0900] [26596] [INFO] Worker exiting (pid: 26596)
+[2023-04-04 19:39:36 +0900] [26625] [INFO] Worker exiting (pid: 26625)
+[2023-04-04 19:39:36 +0900] [26598] [INFO] Worker exiting (pid: 26598)
+[2023-04-04 19:39:39 +0900] [26627] [INFO] Worker exiting (pid: 26627)
+[2023-04-04 19:40:05 +0900] [26592] [INFO] Shutting down: Master
+[2023-04-04 19:40:06 +0900] [26928] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:40:06 +0900] [26928] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (26928)
+[2023-04-04 19:40:06 +0900] [26928] [INFO] Using worker: gthread
+[2023-04-04 19:40:06 +0900] [26934] [INFO] Booting worker with pid: 26934
+[2023-04-04 19:40:06 +0900] [26935] [INFO] Booting worker with pid: 26935
+[2023-04-04 19:40:06 +0900] [26936] [INFO] Booting worker with pid: 26936
+[2023-04-04 19:40:06 +0900] [26943] [INFO] Booting worker with pid: 26943
+[2023-04-04 19:40:06 +0900] [26944] [INFO] Booting worker with pid: 26944
+[2023-04-04 19:40:06 +0900] [26963] [INFO] Booting worker with pid: 26963
+[2023-04-04 19:40:06 +0900] [26970] [INFO] Booting worker with pid: 26970
+[2023-04-04 19:40:06 +0900] [26977] [INFO] Booting worker with pid: 26977
+[2023-04-04 19:42:35 +0900] [26928] [INFO] Handling signal: term
+[2023-04-04 19:42:35 +0900] [26936] [INFO] Worker exiting (pid: 26936)
+[2023-04-04 19:42:35 +0900] [26943] [INFO] Worker exiting (pid: 26943)
+[2023-04-04 19:42:35 +0900] [26963] [INFO] Worker exiting (pid: 26963)
+[2023-04-04 19:42:35 +0900] [26935] [INFO] Worker exiting (pid: 26935)
+[2023-04-04 19:42:36 +0900] [26970] [INFO] Worker exiting (pid: 26970)
+[2023-04-04 19:42:36 +0900] [26934] [INFO] Worker exiting (pid: 26934)
+[2023-04-04 19:42:36 +0900] [26944] [INFO] Worker exiting (pid: 26944)
+[2023-04-04 19:43:05 +0900] [26928] [INFO] Shutting down: Master
+[2023-04-04 19:43:05 +0900] [27221] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:43:05 +0900] [27221] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (27221)
+[2023-04-04 19:43:05 +0900] [27221] [INFO] Using worker: gthread
+[2023-04-04 19:43:05 +0900] [27225] [INFO] Booting worker with pid: 27225
+[2023-04-04 19:43:05 +0900] [27226] [INFO] Booting worker with pid: 27226
+[2023-04-04 19:43:05 +0900] [27233] [INFO] Booting worker with pid: 27233
+[2023-04-04 19:43:05 +0900] [27237] [INFO] Booting worker with pid: 27237
+[2023-04-04 19:43:05 +0900] [27241] [INFO] Booting worker with pid: 27241
+[2023-04-04 19:43:05 +0900] [27242] [INFO] Booting worker with pid: 27242
+[2023-04-04 19:43:05 +0900] [27243] [INFO] Booting worker with pid: 27243
+[2023-04-04 19:43:05 +0900] [27254] [INFO] Booting worker with pid: 27254
+[2023-04-04 19:46:00 +0900] [27221] [INFO] Handling signal: term
+[2023-04-04 19:46:00 +0900] [27243] [INFO] Worker exiting (pid: 27243)
+[2023-04-04 19:46:00 +0900] [27225] [INFO] Worker exiting (pid: 27225)
+[2023-04-04 19:46:00 +0900] [27226] [INFO] Worker exiting (pid: 27226)
+[2023-04-04 19:46:00 +0900] [27254] [INFO] Worker exiting (pid: 27254)
+[2023-04-04 19:46:00 +0900] [27233] [INFO] Worker exiting (pid: 27233)
+[2023-04-04 19:46:00 +0900] [27237] [INFO] Worker exiting (pid: 27237)
+[2023-04-04 19:46:03 +0900] [27241] [INFO] Worker exiting (pid: 27241)
+[2023-04-04 19:46:22 +0900] [27242] [INFO] Worker exiting (pid: 27242)
+[2023-04-04 19:46:22 +0900] [27221] [INFO] Shutting down: Master
+[2023-04-04 19:46:22 +0900] [27566] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:46:22 +0900] [27566] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (27566)
+[2023-04-04 19:46:22 +0900] [27566] [INFO] Using worker: gthread
+[2023-04-04 19:46:22 +0900] [27570] [INFO] Booting worker with pid: 27570
+[2023-04-04 19:46:22 +0900] [27571] [INFO] Booting worker with pid: 27571
+[2023-04-04 19:46:23 +0900] [27578] [INFO] Booting worker with pid: 27578
+[2023-04-04 19:46:23 +0900] [27585] [INFO] Booting worker with pid: 27585
+[2023-04-04 19:46:23 +0900] [27592] [INFO] Booting worker with pid: 27592
+[2023-04-04 19:46:23 +0900] [27599] [INFO] Booting worker with pid: 27599
+[2023-04-04 19:46:23 +0900] [27606] [INFO] Booting worker with pid: 27606
+[2023-04-04 19:46:23 +0900] [27607] [INFO] Booting worker with pid: 27607
+[2023-04-04 19:49:30 +0900] [27566] [INFO] Handling signal: term
+[2023-04-04 19:49:30 +0900] [27570] [INFO] Worker exiting (pid: 27570)
+[2023-04-04 19:49:30 +0900] [27607] [INFO] Worker exiting (pid: 27607)
+[2023-04-04 19:49:30 +0900] [27599] [INFO] Worker exiting (pid: 27599)
+[2023-04-04 19:49:30 +0900] [27606] [INFO] Worker exiting (pid: 27606)
+[2023-04-04 19:49:30 +0900] [27571] [INFO] Worker exiting (pid: 27571)
+[2023-04-04 19:49:30 +0900] [27592] [INFO] Worker exiting (pid: 27592)
+[2023-04-04 19:49:30 +0900] [27585] [INFO] Worker exiting (pid: 27585)
+[2023-04-04 19:49:43 +0900] [27578] [INFO] Worker exiting (pid: 27578)
+[2023-04-04 19:49:43 +0900] [27566] [INFO] Shutting down: Master
+[2023-04-04 19:49:44 +0900] [27922] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:49:44 +0900] [27922] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (27922)
+[2023-04-04 19:49:44 +0900] [27922] [INFO] Using worker: gthread
+[2023-04-04 19:49:44 +0900] [27925] [INFO] Booting worker with pid: 27925
+[2023-04-04 19:49:44 +0900] [27927] [INFO] Booting worker with pid: 27927
+[2023-04-04 19:49:44 +0900] [27934] [INFO] Booting worker with pid: 27934
+[2023-04-04 19:49:44 +0900] [27941] [INFO] Booting worker with pid: 27941
+[2023-04-04 19:49:44 +0900] [27948] [INFO] Booting worker with pid: 27948
+[2023-04-04 19:49:44 +0900] [27955] [INFO] Booting worker with pid: 27955
+[2023-04-04 19:49:44 +0900] [27962] [INFO] Booting worker with pid: 27962
+[2023-04-04 19:49:44 +0900] [27963] [INFO] Booting worker with pid: 27963
+[2023-04-04 19:50:36 +0900] [27922] [INFO] Handling signal: term
+[2023-04-04 19:50:37 +0900] [27948] [INFO] Worker exiting (pid: 27948)
+[2023-04-04 19:50:37 +0900] [27934] [INFO] Worker exiting (pid: 27934)
+[2023-04-04 19:50:37 +0900] [27927] [INFO] Worker exiting (pid: 27927)
+[2023-04-04 19:50:37 +0900] [27963] [INFO] Worker exiting (pid: 27963)
+[2023-04-04 19:50:37 +0900] [27941] [INFO] Worker exiting (pid: 27941)
+[2023-04-04 19:51:02 +0900] [27925] [INFO] Worker exiting (pid: 27925)
+[2023-04-04 19:51:06 +0900] [27922] [INFO] Shutting down: Master
+[2023-04-04 19:51:06 +0900] [28141] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:51:06 +0900] [28141] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (28141)
+[2023-04-04 19:51:06 +0900] [28141] [INFO] Using worker: gthread
+[2023-04-04 19:51:06 +0900] [28144] [INFO] Booting worker with pid: 28144
+[2023-04-04 19:51:06 +0900] [28145] [INFO] Booting worker with pid: 28145
+[2023-04-04 19:51:06 +0900] [28146] [INFO] Booting worker with pid: 28146
+[2023-04-04 19:51:06 +0900] [28159] [INFO] Booting worker with pid: 28159
+[2023-04-04 19:51:07 +0900] [28166] [INFO] Booting worker with pid: 28166
+[2023-04-04 19:51:07 +0900] [28167] [INFO] Booting worker with pid: 28167
+[2023-04-04 19:51:07 +0900] [28174] [INFO] Booting worker with pid: 28174
+[2023-04-04 19:51:07 +0900] [28175] [INFO] Booting worker with pid: 28175
+[2023-04-04 19:52:28 +0900] [28141] [INFO] Handling signal: term
+[2023-04-04 19:52:29 +0900] [28145] [INFO] Worker exiting (pid: 28145)
+[2023-04-04 19:52:29 +0900] [28146] [INFO] Worker exiting (pid: 28146)
+[2023-04-04 19:52:29 +0900] [28159] [INFO] Worker exiting (pid: 28159)
+[2023-04-04 19:52:29 +0900] [28167] [INFO] Worker exiting (pid: 28167)
+[2023-04-04 19:52:29 +0900] [28144] [INFO] Worker exiting (pid: 28144)
+[2023-04-04 19:52:29 +0900] [28175] [INFO] Worker exiting (pid: 28175)
+[2023-04-04 19:52:31 +0900] [28174] [INFO] Worker exiting (pid: 28174)
+[2023-04-04 19:52:33 +0900] [28166] [INFO] Worker exiting (pid: 28166)
+[2023-04-04 19:52:33 +0900] [28141] [INFO] Shutting down: Master
+[2023-04-04 19:52:33 +0900] [28375] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:52:33 +0900] [28375] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (28375)
+[2023-04-04 19:52:33 +0900] [28375] [INFO] Using worker: gthread
+[2023-04-04 19:52:33 +0900] [28379] [INFO] Booting worker with pid: 28379
+[2023-04-04 19:52:34 +0900] [28380] [INFO] Booting worker with pid: 28380
+[2023-04-04 19:52:34 +0900] [28381] [INFO] Booting worker with pid: 28381
+[2023-04-04 19:52:34 +0900] [28388] [INFO] Booting worker with pid: 28388
+[2023-04-04 19:52:34 +0900] [28401] [INFO] Booting worker with pid: 28401
+[2023-04-04 19:52:34 +0900] [28408] [INFO] Booting worker with pid: 28408
+[2023-04-04 19:52:34 +0900] [28409] [INFO] Booting worker with pid: 28409
+[2023-04-04 19:52:34 +0900] [28427] [INFO] Booting worker with pid: 28427
+[2023-04-04 19:54:30 +0900] [28375] [INFO] Handling signal: term
+[2023-04-04 19:54:31 +0900] [28408] [INFO] Worker exiting (pid: 28408)
+[2023-04-04 19:54:31 +0900] [28401] [INFO] Worker exiting (pid: 28401)
+[2023-04-04 19:54:31 +0900] [28388] [INFO] Worker exiting (pid: 28388)
+[2023-04-04 19:54:31 +0900] [28427] [INFO] Worker exiting (pid: 28427)
+[2023-04-04 19:54:31 +0900] [28381] [INFO] Worker exiting (pid: 28381)
+[2023-04-04 19:54:31 +0900] [28409] [INFO] Worker exiting (pid: 28409)
+[2023-04-04 19:54:43 +0900] [28380] [INFO] Worker exiting (pid: 28380)
+[2023-04-04 19:55:00 +0900] [28375] [INFO] Shutting down: Master
+[2023-04-04 19:55:00 +0900] [28668] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 19:55:00 +0900] [28668] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (28668)
+[2023-04-04 19:55:00 +0900] [28668] [INFO] Using worker: gthread
+[2023-04-04 19:55:00 +0900] [28672] [INFO] Booting worker with pid: 28672
+[2023-04-04 19:55:00 +0900] [28673] [INFO] Booting worker with pid: 28673
+[2023-04-04 19:55:00 +0900] [28680] [INFO] Booting worker with pid: 28680
+[2023-04-04 19:55:00 +0900] [28684] [INFO] Booting worker with pid: 28684
+[2023-04-04 19:55:01 +0900] [28688] [INFO] Booting worker with pid: 28688
+[2023-04-04 19:55:01 +0900] [28689] [INFO] Booting worker with pid: 28689
+[2023-04-04 19:55:01 +0900] [28690] [INFO] Booting worker with pid: 28690
+[2023-04-04 19:55:01 +0900] [28709] [INFO] Booting worker with pid: 28709
+[2023-04-04 20:07:51 +0900] [28668] [INFO] Handling signal: term
+[2023-04-04 20:07:52 +0900] [28709] [INFO] Worker exiting (pid: 28709)
+[2023-04-04 20:07:52 +0900] [28680] [INFO] Worker exiting (pid: 28680)
+[2023-04-04 20:07:52 +0900] [28672] [INFO] Worker exiting (pid: 28672)
+[2023-04-04 20:07:52 +0900] [28688] [INFO] Worker exiting (pid: 28688)
+[2023-04-04 20:07:52 +0900] [28673] [INFO] Worker exiting (pid: 28673)
+[2023-04-04 20:07:52 +0900] [28689] [INFO] Worker exiting (pid: 28689)
+[2023-04-04 20:07:52 +0900] [28690] [INFO] Worker exiting (pid: 28690)
+[2023-04-04 20:07:59 +0900] [28684] [INFO] Worker exiting (pid: 28684)
+[2023-04-04 20:08:00 +0900] [28668] [INFO] Shutting down: Master
+[2023-04-04 20:08:00 +0900] [29443] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:08:00 +0900] [29443] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (29443)
+[2023-04-04 20:08:00 +0900] [29443] [INFO] Using worker: gthread
+[2023-04-04 20:08:00 +0900] [29446] [INFO] Booting worker with pid: 29446
+[2023-04-04 20:08:00 +0900] [29447] [INFO] Booting worker with pid: 29447
+[2023-04-04 20:08:00 +0900] [29448] [INFO] Booting worker with pid: 29448
+[2023-04-04 20:08:00 +0900] [29449] [INFO] Booting worker with pid: 29449
+[2023-04-04 20:08:00 +0900] [29456] [INFO] Booting worker with pid: 29456
+[2023-04-04 20:08:00 +0900] [29457] [INFO] Booting worker with pid: 29457
+[2023-04-04 20:08:00 +0900] [29476] [INFO] Booting worker with pid: 29476
+[2023-04-04 20:08:00 +0900] [29477] [INFO] Booting worker with pid: 29477
+[2023-04-04 20:09:19 +0900] [29443] [INFO] Handling signal: term
+[2023-04-04 20:09:19 +0900] [29447] [INFO] Worker exiting (pid: 29447)
+[2023-04-04 20:09:19 +0900] [29477] [INFO] Worker exiting (pid: 29477)
+[2023-04-04 20:09:19 +0900] [29446] [INFO] Worker exiting (pid: 29446)
+[2023-04-04 20:09:19 +0900] [29476] [INFO] Worker exiting (pid: 29476)
+[2023-04-04 20:09:19 +0900] [29456] [INFO] Worker exiting (pid: 29456)
+[2023-04-04 20:09:19 +0900] [29448] [INFO] Worker exiting (pid: 29448)
+[2023-04-04 20:09:19 +0900] [29457] [INFO] Worker exiting (pid: 29457)
+[2023-04-04 20:09:49 +0900] [29443] [INFO] Shutting down: Master
+[2023-04-04 20:09:49 +0900] [29732] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:09:49 +0900] [29732] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (29732)
+[2023-04-04 20:09:49 +0900] [29732] [INFO] Using worker: gthread
+[2023-04-04 20:09:49 +0900] [29736] [INFO] Booting worker with pid: 29736
+[2023-04-04 20:09:49 +0900] [29737] [INFO] Booting worker with pid: 29737
+[2023-04-04 20:09:49 +0900] [29738] [INFO] Booting worker with pid: 29738
+[2023-04-04 20:09:49 +0900] [29739] [INFO] Booting worker with pid: 29739
+[2023-04-04 20:09:49 +0900] [29746] [INFO] Booting worker with pid: 29746
+[2023-04-04 20:09:49 +0900] [29747] [INFO] Booting worker with pid: 29747
+[2023-04-04 20:09:49 +0900] [29754] [INFO] Booting worker with pid: 29754
+[2023-04-04 20:09:49 +0900] [29767] [INFO] Booting worker with pid: 29767
+[2023-04-04 20:10:46 +0900] [29732] [INFO] Handling signal: term
+[2023-04-04 20:10:47 +0900] [29736] [INFO] Worker exiting (pid: 29736)
+[2023-04-04 20:10:47 +0900] [29738] [INFO] Worker exiting (pid: 29738)
+[2023-04-04 20:10:47 +0900] [29746] [INFO] Worker exiting (pid: 29746)
+[2023-04-04 20:10:47 +0900] [29747] [INFO] Worker exiting (pid: 29747)
+[2023-04-04 20:10:47 +0900] [29737] [INFO] Worker exiting (pid: 29737)
+[2023-04-04 20:10:47 +0900] [29739] [INFO] Worker exiting (pid: 29739)
+[2023-04-04 20:10:51 +0900] [29754] [INFO] Worker exiting (pid: 29754)
+[2023-04-04 20:11:16 +0900] [29732] [INFO] Shutting down: Master
+[2023-04-04 20:11:16 +0900] [29944] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:11:16 +0900] [29944] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (29944)
+[2023-04-04 20:11:16 +0900] [29944] [INFO] Using worker: gthread
+[2023-04-04 20:11:16 +0900] [29947] [INFO] Booting worker with pid: 29947
+[2023-04-04 20:11:16 +0900] [29948] [INFO] Booting worker with pid: 29948
+[2023-04-04 20:11:16 +0900] [29950] [INFO] Booting worker with pid: 29950
+[2023-04-04 20:11:16 +0900] [29962] [INFO] Booting worker with pid: 29962
+[2023-04-04 20:11:16 +0900] [29966] [INFO] Booting worker with pid: 29966
+[2023-04-04 20:11:16 +0900] [29970] [INFO] Booting worker with pid: 29970
+[2023-04-04 20:11:16 +0900] [29971] [INFO] Booting worker with pid: 29971
+[2023-04-04 20:11:16 +0900] [29973] [INFO] Booting worker with pid: 29973
+[2023-04-04 20:11:42 +0900] [29944] [INFO] Handling signal: term
+[2023-04-04 20:11:42 +0900] [29947] [INFO] Worker exiting (pid: 29947)
+[2023-04-04 20:11:42 +0900] [29971] [INFO] Worker exiting (pid: 29971)
+[2023-04-04 20:11:42 +0900] [29962] [INFO] Worker exiting (pid: 29962)
+[2023-04-04 20:11:42 +0900] [29950] [INFO] Worker exiting (pid: 29950)
+[2023-04-04 20:11:42 +0900] [29973] [INFO] Worker exiting (pid: 29973)
+[2023-04-04 20:11:42 +0900] [29966] [INFO] Worker exiting (pid: 29966)
+[2023-04-04 20:12:12 +0900] [29944] [INFO] Shutting down: Master
+[2023-04-04 20:12:12 +0900] [30159] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:12:12 +0900] [30159] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (30159)
+[2023-04-04 20:12:12 +0900] [30159] [INFO] Using worker: gthread
+[2023-04-04 20:12:12 +0900] [30162] [INFO] Booting worker with pid: 30162
+[2023-04-04 20:12:12 +0900] [30163] [INFO] Booting worker with pid: 30163
+[2023-04-04 20:12:12 +0900] [30164] [INFO] Booting worker with pid: 30164
+[2023-04-04 20:12:12 +0900] [30165] [INFO] Booting worker with pid: 30165
+[2023-04-04 20:12:12 +0900] [30166] [INFO] Booting worker with pid: 30166
+[2023-04-04 20:12:12 +0900] [30185] [INFO] Booting worker with pid: 30185
+[2023-04-04 20:12:12 +0900] [30198] [INFO] Booting worker with pid: 30198
+[2023-04-04 20:12:12 +0900] [30199] [INFO] Booting worker with pid: 30199
+[2023-04-04 20:17:28 +0900] [30159] [INFO] Handling signal: term
+[2023-04-04 20:17:28 +0900] [30165] [INFO] Worker exiting (pid: 30165)
+[2023-04-04 20:17:28 +0900] [30162] [INFO] Worker exiting (pid: 30162)
+[2023-04-04 20:17:28 +0900] [30164] [INFO] Worker exiting (pid: 30164)
+[2023-04-04 20:17:28 +0900] [30199] [INFO] Worker exiting (pid: 30199)
+[2023-04-04 20:17:28 +0900] [30166] [INFO] Worker exiting (pid: 30166)
+[2023-04-04 20:17:28 +0900] [30163] [INFO] Worker exiting (pid: 30163)
+[2023-04-04 20:17:28 +0900] [30185] [INFO] Worker exiting (pid: 30185)
+[2023-04-04 20:17:44 +0900] [30198] [INFO] Worker exiting (pid: 30198)
+[2023-04-04 20:17:44 +0900] [30159] [INFO] Shutting down: Master
+[2023-04-04 20:17:45 +0900] [30571] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:17:45 +0900] [30571] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (30571)
+[2023-04-04 20:17:45 +0900] [30571] [INFO] Using worker: gthread
+[2023-04-04 20:17:45 +0900] [30574] [INFO] Booting worker with pid: 30574
+[2023-04-04 20:17:45 +0900] [30575] [INFO] Booting worker with pid: 30575
+[2023-04-04 20:17:45 +0900] [30576] [INFO] Booting worker with pid: 30576
+[2023-04-04 20:17:45 +0900] [30577] [INFO] Booting worker with pid: 30577
+[2023-04-04 20:17:45 +0900] [30584] [INFO] Booting worker with pid: 30584
+[2023-04-04 20:17:45 +0900] [30603] [INFO] Booting worker with pid: 30603
+[2023-04-04 20:17:45 +0900] [30604] [INFO] Booting worker with pid: 30604
+[2023-04-04 20:17:45 +0900] [30611] [INFO] Booting worker with pid: 30611
+[2023-04-04 20:17:54 +0900] [30571] [INFO] Handling signal: term
+[2023-04-04 20:17:54 +0900] [30575] [INFO] Worker exiting (pid: 30575)
+[2023-04-04 20:17:54 +0900] [30574] [INFO] Worker exiting (pid: 30574)
+[2023-04-04 20:17:54 +0900] [30603] [INFO] Worker exiting (pid: 30603)
+[2023-04-04 20:17:54 +0900] [30584] [INFO] Worker exiting (pid: 30584)
+[2023-04-04 20:17:54 +0900] [30577] [INFO] Worker exiting (pid: 30577)
+[2023-04-04 20:17:54 +0900] [30604] [INFO] Worker exiting (pid: 30604)
+[2023-04-04 20:17:54 +0900] [30576] [INFO] Worker exiting (pid: 30576)
+[2023-04-04 20:18:24 +0900] [30571] [INFO] Shutting down: Master
+[2023-04-04 20:18:24 +0900] [30709] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:18:24 +0900] [30709] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (30709)
+[2023-04-04 20:18:24 +0900] [30709] [INFO] Using worker: gthread
+[2023-04-04 20:18:24 +0900] [30713] [INFO] Booting worker with pid: 30713
+[2023-04-04 20:18:24 +0900] [30714] [INFO] Booting worker with pid: 30714
+[2023-04-04 20:18:24 +0900] [30715] [INFO] Booting worker with pid: 30715
+[2023-04-04 20:18:24 +0900] [30719] [INFO] Booting worker with pid: 30719
+[2023-04-04 20:18:24 +0900] [30724] [INFO] Booting worker with pid: 30724
+[2023-04-04 20:18:24 +0900] [30742] [INFO] Booting worker with pid: 30742
+[2023-04-04 20:18:24 +0900] [30749] [INFO] Booting worker with pid: 30749
+[2023-04-04 20:18:24 +0900] [30750] [INFO] Booting worker with pid: 30750
+[2023-04-04 20:19:25 +0900] [30709] [INFO] Handling signal: term
+[2023-04-04 20:19:25 +0900] [30742] [INFO] Worker exiting (pid: 30742)
+[2023-04-04 20:19:25 +0900] [30719] [INFO] Worker exiting (pid: 30719)
+[2023-04-04 20:19:25 +0900] [30724] [INFO] Worker exiting (pid: 30724)
+[2023-04-04 20:19:25 +0900] [30715] [INFO] Worker exiting (pid: 30715)
+[2023-04-04 20:19:25 +0900] [30749] [INFO] Worker exiting (pid: 30749)
+[2023-04-04 20:19:25 +0900] [30750] [INFO] Worker exiting (pid: 30750)
+[2023-04-04 20:19:26 +0900] [30714] [INFO] Worker exiting (pid: 30714)
+[2023-04-04 20:19:40 +0900] [30713] [INFO] Worker exiting (pid: 30713)
+[2023-04-04 20:19:40 +0900] [30709] [INFO] Shutting down: Master
+[2023-04-04 20:19:40 +0900] [30952] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:19:40 +0900] [30952] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (30952)
+[2023-04-04 20:19:40 +0900] [30952] [INFO] Using worker: gthread
+[2023-04-04 20:19:40 +0900] [30955] [INFO] Booting worker with pid: 30955
+[2023-04-04 20:19:40 +0900] [30956] [INFO] Booting worker with pid: 30956
+[2023-04-04 20:19:40 +0900] [30960] [INFO] Booting worker with pid: 30960
+[2023-04-04 20:19:40 +0900] [30964] [INFO] Booting worker with pid: 30964
+[2023-04-04 20:19:40 +0900] [30971] [INFO] Booting worker with pid: 30971
+[2023-04-04 20:19:40 +0900] [30978] [INFO] Booting worker with pid: 30978
+[2023-04-04 20:19:40 +0900] [30985] [INFO] Booting worker with pid: 30985
+[2023-04-04 20:19:41 +0900] [30992] [INFO] Booting worker with pid: 30992
+[2023-04-04 20:19:58 +0900] [30952] [INFO] Handling signal: term
+[2023-04-04 20:19:59 +0900] [30985] [INFO] Worker exiting (pid: 30985)
+[2023-04-04 20:19:59 +0900] [30956] [INFO] Worker exiting (pid: 30956)
+[2023-04-04 20:19:59 +0900] [30955] [INFO] Worker exiting (pid: 30955)
+[2023-04-04 20:19:59 +0900] [30960] [INFO] Worker exiting (pid: 30960)
+[2023-04-04 20:19:59 +0900] [30971] [INFO] Worker exiting (pid: 30971)
+[2023-04-04 20:19:59 +0900] [30992] [INFO] Worker exiting (pid: 30992)
+[2023-04-04 20:19:59 +0900] [30964] [INFO] Worker exiting (pid: 30964)
+[2023-04-04 20:20:28 +0900] [30952] [INFO] Shutting down: Master
+[2023-04-04 20:20:28 +0900] [31150] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:20:28 +0900] [31150] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (31150)
+[2023-04-04 20:20:28 +0900] [31150] [INFO] Using worker: gthread
+[2023-04-04 20:20:28 +0900] [31153] [INFO] Booting worker with pid: 31153
+[2023-04-04 20:20:28 +0900] [31155] [INFO] Booting worker with pid: 31155
+[2023-04-04 20:20:28 +0900] [31156] [INFO] Booting worker with pid: 31156
+[2023-04-04 20:20:28 +0900] [31163] [INFO] Booting worker with pid: 31163
+[2023-04-04 20:20:29 +0900] [31176] [INFO] Booting worker with pid: 31176
+[2023-04-04 20:20:29 +0900] [31183] [INFO] Booting worker with pid: 31183
+[2023-04-04 20:20:29 +0900] [31190] [INFO] Booting worker with pid: 31190
+[2023-04-04 20:20:29 +0900] [31197] [INFO] Booting worker with pid: 31197
+[2023-04-04 20:21:37 +0900] [31150] [INFO] Handling signal: term
+[2023-04-04 20:21:37 +0900] [31190] [INFO] Worker exiting (pid: 31190)
+[2023-04-04 20:21:37 +0900] [31153] [INFO] Worker exiting (pid: 31153)
+[2023-04-04 20:21:37 +0900] [31183] [INFO] Worker exiting (pid: 31183)
+[2023-04-04 20:21:37 +0900] [31176] [INFO] Worker exiting (pid: 31176)
+[2023-04-04 20:21:37 +0900] [31156] [INFO] Worker exiting (pid: 31156)
+[2023-04-04 20:21:37 +0900] [31197] [INFO] Worker exiting (pid: 31197)
+[2023-04-04 20:21:38 +0900] [31155] [INFO] Worker exiting (pid: 31155)
+[2023-04-04 20:21:52 +0900] [31163] [INFO] Worker exiting (pid: 31163)
+[2023-04-04 20:21:53 +0900] [31150] [INFO] Shutting down: Master
+[2023-04-04 20:21:53 +0900] [31412] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:21:53 +0900] [31412] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (31412)
+[2023-04-04 20:21:53 +0900] [31412] [INFO] Using worker: gthread
+[2023-04-04 20:21:53 +0900] [31415] [INFO] Booting worker with pid: 31415
+[2023-04-04 20:21:53 +0900] [31416] [INFO] Booting worker with pid: 31416
+[2023-04-04 20:21:53 +0900] [31417] [INFO] Booting worker with pid: 31417
+[2023-04-04 20:21:53 +0900] [31418] [INFO] Booting worker with pid: 31418
+[2023-04-04 20:21:53 +0900] [31425] [INFO] Booting worker with pid: 31425
+[2023-04-04 20:21:53 +0900] [31426] [INFO] Booting worker with pid: 31426
+[2023-04-04 20:21:53 +0900] [31437] [INFO] Booting worker with pid: 31437
+[2023-04-04 20:21:53 +0900] [31440] [INFO] Booting worker with pid: 31440
+[2023-04-04 20:25:13 +0900] [31412] [INFO] Handling signal: term
+[2023-04-04 20:25:14 +0900] [31417] [INFO] Worker exiting (pid: 31417)
+[2023-04-04 20:25:14 +0900] [31425] [INFO] Worker exiting (pid: 31425)
+[2023-04-04 20:25:14 +0900] [31418] [INFO] Worker exiting (pid: 31418)
+[2023-04-04 20:25:14 +0900] [31415] [INFO] Worker exiting (pid: 31415)
+[2023-04-04 20:25:14 +0900] [31437] [INFO] Worker exiting (pid: 31437)
+[2023-04-04 20:25:14 +0900] [31440] [INFO] Worker exiting (pid: 31440)
+[2023-04-04 20:25:14 +0900] [31416] [INFO] Worker exiting (pid: 31416)
+[2023-04-04 20:25:33 +0900] [31426] [INFO] Worker exiting (pid: 31426)
+[2023-04-04 20:25:33 +0900] [31412] [INFO] Shutting down: Master
+[2023-04-04 20:25:33 +0900] [31701] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:25:33 +0900] [31701] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (31701)
+[2023-04-04 20:25:33 +0900] [31701] [INFO] Using worker: gthread
+[2023-04-04 20:25:33 +0900] [31705] [INFO] Booting worker with pid: 31705
+[2023-04-04 20:25:33 +0900] [31706] [INFO] Booting worker with pid: 31706
+[2023-04-04 20:25:33 +0900] [31707] [INFO] Booting worker with pid: 31707
+[2023-04-04 20:25:33 +0900] [31708] [INFO] Booting worker with pid: 31708
+[2023-04-04 20:25:33 +0900] [31715] [INFO] Booting worker with pid: 31715
+[2023-04-04 20:25:33 +0900] [31722] [INFO] Booting worker with pid: 31722
+[2023-04-04 20:25:33 +0900] [31735] [INFO] Booting worker with pid: 31735
+[2023-04-04 20:25:33 +0900] [31748] [INFO] Booting worker with pid: 31748
+[2023-04-04 20:27:19 +0900] [31701] [INFO] Handling signal: term
+[2023-04-04 20:27:20 +0900] [31722] [INFO] Worker exiting (pid: 31722)
+[2023-04-04 20:27:20 +0900] [31707] [INFO] Worker exiting (pid: 31707)
+[2023-04-04 20:27:20 +0900] [31706] [INFO] Worker exiting (pid: 31706)
+[2023-04-04 20:27:20 +0900] [31735] [INFO] Worker exiting (pid: 31735)
+[2023-04-04 20:27:20 +0900] [31708] [INFO] Worker exiting (pid: 31708)
+[2023-04-04 20:27:20 +0900] [31715] [INFO] Worker exiting (pid: 31715)
+[2023-04-04 20:27:20 +0900] [31705] [INFO] Worker exiting (pid: 31705)
+[2023-04-04 20:27:48 +0900] [31748] [INFO] Worker exiting (pid: 31748)
+[2023-04-04 20:27:48 +0900] [31701] [INFO] Shutting down: Master
+[2023-04-04 20:27:48 +0900] [31979] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:27:48 +0900] [31979] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (31979)
+[2023-04-04 20:27:48 +0900] [31979] [INFO] Using worker: gthread
+[2023-04-04 20:27:48 +0900] [31982] [INFO] Booting worker with pid: 31982
+[2023-04-04 20:27:48 +0900] [31983] [INFO] Booting worker with pid: 31983
+[2023-04-04 20:27:48 +0900] [31984] [INFO] Booting worker with pid: 31984
+[2023-04-04 20:27:49 +0900] [31997] [INFO] Booting worker with pid: 31997
+[2023-04-04 20:27:49 +0900] [31998] [INFO] Booting worker with pid: 31998
+[2023-04-04 20:27:49 +0900] [31999] [INFO] Booting worker with pid: 31999
+[2023-04-04 20:27:49 +0900] [32006] [INFO] Booting worker with pid: 32006
+[2023-04-04 20:27:49 +0900] [32013] [INFO] Booting worker with pid: 32013
+[2023-04-04 20:28:20 +0900] [31979] [INFO] Handling signal: term
+[2023-04-04 20:28:20 +0900] [32013] [INFO] Worker exiting (pid: 32013)
+[2023-04-04 20:28:20 +0900] [31984] [INFO] Worker exiting (pid: 31984)
+[2023-04-04 20:28:20 +0900] [32006] [INFO] Worker exiting (pid: 32006)
+[2023-04-04 20:28:20 +0900] [31997] [INFO] Worker exiting (pid: 31997)
+[2023-04-04 20:28:20 +0900] [31998] [INFO] Worker exiting (pid: 31998)
+[2023-04-04 20:28:50 +0900] [31979] [INFO] Shutting down: Master
+[2023-04-04 20:28:50 +0900] [32188] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:28:50 +0900] [32188] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (32188)
+[2023-04-04 20:28:50 +0900] [32188] [INFO] Using worker: gthread
+[2023-04-04 20:28:50 +0900] [32202] [INFO] Booting worker with pid: 32202
+[2023-04-04 20:28:50 +0900] [32203] [INFO] Booting worker with pid: 32203
+[2023-04-04 20:28:50 +0900] [32204] [INFO] Booting worker with pid: 32204
+[2023-04-04 20:28:50 +0900] [32205] [INFO] Booting worker with pid: 32205
+[2023-04-04 20:28:50 +0900] [32212] [INFO] Booting worker with pid: 32212
+[2023-04-04 20:28:50 +0900] [32225] [INFO] Booting worker with pid: 32225
+[2023-04-04 20:28:50 +0900] [32232] [INFO] Booting worker with pid: 32232
+[2023-04-04 20:28:50 +0900] [32245] [INFO] Booting worker with pid: 32245
+[2023-04-04 20:29:53 +0900] [32188] [INFO] Handling signal: term
+[2023-04-04 20:29:54 +0900] [32204] [INFO] Worker exiting (pid: 32204)
+[2023-04-04 20:29:54 +0900] [32205] [INFO] Worker exiting (pid: 32205)
+[2023-04-04 20:29:54 +0900] [32203] [INFO] Worker exiting (pid: 32203)
+[2023-04-04 20:29:54 +0900] [32202] [INFO] Worker exiting (pid: 32202)
+[2023-04-04 20:29:54 +0900] [32225] [INFO] Worker exiting (pid: 32225)
+[2023-04-04 20:29:54 +0900] [32212] [INFO] Worker exiting (pid: 32212)
+[2023-04-04 20:29:54 +0900] [32232] [INFO] Worker exiting (pid: 32232)
+[2023-04-04 20:30:04 +0900] [32245] [INFO] Worker exiting (pid: 32245)
+[2023-04-04 20:30:05 +0900] [32188] [INFO] Shutting down: Master
+[2023-04-04 20:30:05 +0900] [32423] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:30:05 +0900] [32423] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (32423)
+[2023-04-04 20:30:05 +0900] [32423] [INFO] Using worker: gthread
+[2023-04-04 20:30:05 +0900] [32427] [INFO] Booting worker with pid: 32427
+[2023-04-04 20:30:05 +0900] [32428] [INFO] Booting worker with pid: 32428
+[2023-04-04 20:30:05 +0900] [32429] [INFO] Booting worker with pid: 32429
+[2023-04-04 20:30:05 +0900] [32430] [INFO] Booting worker with pid: 32430
+[2023-04-04 20:30:05 +0900] [32449] [INFO] Booting worker with pid: 32449
+[2023-04-04 20:30:05 +0900] [32450] [INFO] Booting worker with pid: 32450
+[2023-04-04 20:30:05 +0900] [32451] [INFO] Booting worker with pid: 32451
+[2023-04-04 20:30:05 +0900] [32458] [INFO] Booting worker with pid: 32458
+[2023-04-04 20:32:07 +0900] [32423] [INFO] Handling signal: term
+[2023-04-04 20:32:07 +0900] [32451] [INFO] Worker exiting (pid: 32451)
+[2023-04-04 20:32:07 +0900] [32430] [INFO] Worker exiting (pid: 32430)
+[2023-04-04 20:32:07 +0900] [32449] [INFO] Worker exiting (pid: 32449)
+[2023-04-04 20:32:07 +0900] [32458] [INFO] Worker exiting (pid: 32458)
+[2023-04-04 20:32:07 +0900] [32427] [INFO] Worker exiting (pid: 32427)
+[2023-04-04 20:32:07 +0900] [32428] [INFO] Worker exiting (pid: 32428)
+[2023-04-04 20:32:10 +0900] [32429] [INFO] Worker exiting (pid: 32429)
+[2023-04-04 20:32:13 +0900] [32450] [INFO] Worker exiting (pid: 32450)
+[2023-04-04 20:32:13 +0900] [32423] [INFO] Shutting down: Master
+[2023-04-04 20:32:13 +0900] [32671] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:32:13 +0900] [32671] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (32671)
+[2023-04-04 20:32:13 +0900] [32671] [INFO] Using worker: gthread
+[2023-04-04 20:32:13 +0900] [32685] [INFO] Booting worker with pid: 32685
+[2023-04-04 20:32:13 +0900] [32686] [INFO] Booting worker with pid: 32686
+[2023-04-04 20:32:13 +0900] [32696] [INFO] Booting worker with pid: 32696
+[2023-04-04 20:32:14 +0900] [32697] [INFO] Booting worker with pid: 32697
+[2023-04-04 20:32:14 +0900] [32704] [INFO] Booting worker with pid: 32704
+[2023-04-04 20:32:14 +0900] [32717] [INFO] Booting worker with pid: 32717
+[2023-04-04 20:32:14 +0900] [32724] [INFO] Booting worker with pid: 32724
+[2023-04-04 20:32:14 +0900] [32731] [INFO] Booting worker with pid: 32731
+[2023-04-04 20:32:46 +0900] [32671] [INFO] Handling signal: term
+[2023-04-04 20:32:47 +0900] [32717] [INFO] Worker exiting (pid: 32717)
+[2023-04-04 20:32:47 +0900] [32704] [INFO] Worker exiting (pid: 32704)
+[2023-04-04 20:32:47 +0900] [32685] [INFO] Worker exiting (pid: 32685)
+[2023-04-04 20:32:47 +0900] [32697] [INFO] Worker exiting (pid: 32697)
+[2023-04-04 20:32:47 +0900] [32686] [INFO] Worker exiting (pid: 32686)
+[2023-04-04 20:32:47 +0900] [32724] [INFO] Worker exiting (pid: 32724)
+[2023-04-04 20:33:16 +0900] [32671] [INFO] Shutting down: Master
+[2023-04-04 20:33:17 +0900] [32876] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:33:17 +0900] [32876] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (32876)
+[2023-04-04 20:33:17 +0900] [32876] [INFO] Using worker: gthread
+[2023-04-04 20:33:17 +0900] [32879] [INFO] Booting worker with pid: 32879
+[2023-04-04 20:33:17 +0900] [32880] [INFO] Booting worker with pid: 32880
+[2023-04-04 20:33:17 +0900] [32882] [INFO] Booting worker with pid: 32882
+[2023-04-04 20:33:17 +0900] [32883] [INFO] Booting worker with pid: 32883
+[2023-04-04 20:33:17 +0900] [32902] [INFO] Booting worker with pid: 32902
+[2023-04-04 20:33:17 +0900] [32909] [INFO] Booting worker with pid: 32909
+[2023-04-04 20:33:17 +0900] [32916] [INFO] Booting worker with pid: 32916
+[2023-04-04 20:33:17 +0900] [32917] [INFO] Booting worker with pid: 32917
+[2023-04-04 20:35:34 +0900] [32876] [INFO] Handling signal: term
+[2023-04-04 20:35:35 +0900] [32909] [INFO] Worker exiting (pid: 32909)
+[2023-04-04 20:35:35 +0900] [32880] [INFO] Worker exiting (pid: 32880)
+[2023-04-04 20:35:35 +0900] [32917] [INFO] Worker exiting (pid: 32917)
+[2023-04-04 20:35:35 +0900] [32879] [INFO] Worker exiting (pid: 32879)
+[2023-04-04 20:35:35 +0900] [32902] [INFO] Worker exiting (pid: 32902)
+[2023-04-04 20:35:35 +0900] [32916] [INFO] Worker exiting (pid: 32916)
+[2023-04-04 20:35:35 +0900] [32882] [INFO] Worker exiting (pid: 32882)
+[2023-04-04 20:36:04 +0900] [32876] [INFO] Shutting down: Master
+[2023-04-04 20:36:04 +0900] [33216] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:36:04 +0900] [33216] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (33216)
+[2023-04-04 20:36:04 +0900] [33216] [INFO] Using worker: gthread
+[2023-04-04 20:36:04 +0900] [33219] [INFO] Booting worker with pid: 33219
+[2023-04-04 20:36:04 +0900] [33220] [INFO] Booting worker with pid: 33220
+[2023-04-04 20:36:04 +0900] [33227] [INFO] Booting worker with pid: 33227
+[2023-04-04 20:36:04 +0900] [33234] [INFO] Booting worker with pid: 33234
+[2023-04-04 20:36:04 +0900] [33235] [INFO] Booting worker with pid: 33235
+[2023-04-04 20:36:04 +0900] [33248] [INFO] Booting worker with pid: 33248
+[2023-04-04 20:36:04 +0900] [33255] [INFO] Booting worker with pid: 33255
+[2023-04-04 20:36:04 +0900] [33262] [INFO] Booting worker with pid: 33262
+[2023-04-04 20:36:30 +0900] [33216] [INFO] Handling signal: term
+[2023-04-04 20:36:31 +0900] [33220] [INFO] Worker exiting (pid: 33220)
+[2023-04-04 20:36:31 +0900] [33262] [INFO] Worker exiting (pid: 33262)
+[2023-04-04 20:36:31 +0900] [33227] [INFO] Worker exiting (pid: 33227)
+[2023-04-04 20:36:31 +0900] [33219] [INFO] Worker exiting (pid: 33219)
+[2023-04-04 20:36:31 +0900] [33235] [INFO] Worker exiting (pid: 33235)
+[2023-04-04 20:36:31 +0900] [33255] [INFO] Worker exiting (pid: 33255)
+[2023-04-04 20:36:31 +0900] [33234] [INFO] Worker exiting (pid: 33234)
+[2023-04-04 20:37:00 +0900] [33216] [INFO] Shutting down: Master
+[2023-04-04 20:37:00 +0900] [33424] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:37:00 +0900] [33424] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (33424)
+[2023-04-04 20:37:00 +0900] [33424] [INFO] Using worker: gthread
+[2023-04-04 20:37:00 +0900] [33427] [INFO] Booting worker with pid: 33427
+[2023-04-04 20:37:00 +0900] [33428] [INFO] Booting worker with pid: 33428
+[2023-04-04 20:37:00 +0900] [33429] [INFO] Booting worker with pid: 33429
+[2023-04-04 20:37:00 +0900] [33430] [INFO] Booting worker with pid: 33430
+[2023-04-04 20:37:01 +0900] [33437] [INFO] Booting worker with pid: 33437
+[2023-04-04 20:37:01 +0900] [33444] [INFO] Booting worker with pid: 33444
+[2023-04-04 20:37:01 +0900] [33457] [INFO] Booting worker with pid: 33457
+[2023-04-04 20:37:01 +0900] [33470] [INFO] Booting worker with pid: 33470
+[2023-04-04 20:38:16 +0900] [33424] [INFO] Handling signal: term
+[2023-04-04 20:38:17 +0900] [33457] [INFO] Worker exiting (pid: 33457)
+[2023-04-04 20:38:17 +0900] [33428] [INFO] Worker exiting (pid: 33428)
+[2023-04-04 20:38:17 +0900] [33427] [INFO] Worker exiting (pid: 33427)
+[2023-04-04 20:38:17 +0900] [33430] [INFO] Worker exiting (pid: 33430)
+[2023-04-04 20:38:17 +0900] [33437] [INFO] Worker exiting (pid: 33437)
+[2023-04-04 20:38:17 +0900] [33470] [INFO] Worker exiting (pid: 33470)
+[2023-04-04 20:38:17 +0900] [33429] [INFO] Worker exiting (pid: 33429)
+[2023-04-04 20:38:46 +0900] [33424] [INFO] Shutting down: Master
+[2023-04-04 20:38:46 +0900] [33647] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:38:46 +0900] [33647] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (33647)
+[2023-04-04 20:38:46 +0900] [33647] [INFO] Using worker: gthread
+[2023-04-04 20:38:46 +0900] [33650] [INFO] Booting worker with pid: 33650
+[2023-04-04 20:38:46 +0900] [33652] [INFO] Booting worker with pid: 33652
+[2023-04-04 20:38:46 +0900] [33653] [INFO] Booting worker with pid: 33653
+[2023-04-04 20:38:46 +0900] [33654] [INFO] Booting worker with pid: 33654
+[2023-04-04 20:38:46 +0900] [33671] [INFO] Booting worker with pid: 33671
+[2023-04-04 20:38:46 +0900] [33678] [INFO] Booting worker with pid: 33678
+[2023-04-04 20:38:46 +0900] [33681] [INFO] Booting worker with pid: 33681
+[2023-04-04 20:38:46 +0900] [33682] [INFO] Booting worker with pid: 33682
+[2023-04-04 20:39:30 +0900] [33647] [INFO] Handling signal: term
+[2023-04-04 20:39:31 +0900] [33652] [INFO] Worker exiting (pid: 33652)
+[2023-04-04 20:39:31 +0900] [33671] [INFO] Worker exiting (pid: 33671)
+[2023-04-04 20:39:31 +0900] [33681] [INFO] Worker exiting (pid: 33681)
+[2023-04-04 20:39:31 +0900] [33682] [INFO] Worker exiting (pid: 33682)
+[2023-04-04 20:39:31 +0900] [33654] [INFO] Worker exiting (pid: 33654)
+[2023-04-04 20:39:31 +0900] [33653] [INFO] Worker exiting (pid: 33653)
+[2023-04-04 20:39:31 +0900] [33650] [INFO] Worker exiting (pid: 33650)
+[2023-04-04 20:39:49 +0900] [33678] [INFO] Worker exiting (pid: 33678)
+[2023-04-04 20:39:49 +0900] [33647] [INFO] Shutting down: Master
+[2023-04-04 20:39:49 +0900] [33865] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:39:49 +0900] [33865] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (33865)
+[2023-04-04 20:39:49 +0900] [33865] [INFO] Using worker: gthread
+[2023-04-04 20:39:49 +0900] [33868] [INFO] Booting worker with pid: 33868
+[2023-04-04 20:39:50 +0900] [33869] [INFO] Booting worker with pid: 33869
+[2023-04-04 20:39:50 +0900] [33870] [INFO] Booting worker with pid: 33870
+[2023-04-04 20:39:50 +0900] [33879] [INFO] Booting worker with pid: 33879
+[2023-04-04 20:39:50 +0900] [33890] [INFO] Booting worker with pid: 33890
+[2023-04-04 20:39:50 +0900] [33897] [INFO] Booting worker with pid: 33897
+[2023-04-04 20:39:50 +0900] [33904] [INFO] Booting worker with pid: 33904
+[2023-04-04 20:39:50 +0900] [33911] [INFO] Booting worker with pid: 33911
+[2023-04-04 20:41:07 +0900] [33865] [INFO] Handling signal: term
+[2023-04-04 20:41:07 +0900] [33869] [INFO] Worker exiting (pid: 33869)
+[2023-04-04 20:41:07 +0900] [33879] [INFO] Worker exiting (pid: 33879)
+[2023-04-04 20:41:07 +0900] [33897] [INFO] Worker exiting (pid: 33897)
+[2023-04-04 20:41:07 +0900] [33868] [INFO] Worker exiting (pid: 33868)
+[2023-04-04 20:41:07 +0900] [33890] [INFO] Worker exiting (pid: 33890)
+[2023-04-04 20:41:07 +0900] [33870] [INFO] Worker exiting (pid: 33870)
+[2023-04-04 20:41:07 +0900] [33911] [INFO] Worker exiting (pid: 33911)
+[2023-04-04 20:41:37 +0900] [33865] [INFO] Shutting down: Master
+[2023-04-04 20:41:37 +0900] [34141] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:41:37 +0900] [34141] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (34141)
+[2023-04-04 20:41:37 +0900] [34141] [INFO] Using worker: gthread
+[2023-04-04 20:41:37 +0900] [34144] [INFO] Booting worker with pid: 34144
+[2023-04-04 20:41:37 +0900] [34145] [INFO] Booting worker with pid: 34145
+[2023-04-04 20:41:37 +0900] [34152] [INFO] Booting worker with pid: 34152
+[2023-04-04 20:41:37 +0900] [34159] [INFO] Booting worker with pid: 34159
+[2023-04-04 20:41:37 +0900] [34166] [INFO] Booting worker with pid: 34166
+[2023-04-04 20:41:37 +0900] [34167] [INFO] Booting worker with pid: 34167
+[2023-04-04 20:41:38 +0900] [34174] [INFO] Booting worker with pid: 34174
+[2023-04-04 20:41:38 +0900] [34187] [INFO] Booting worker with pid: 34187
+[2023-04-04 20:42:05 +0900] [34141] [INFO] Handling signal: term
+[2023-04-04 20:42:05 +0900] [34145] [INFO] Worker exiting (pid: 34145)
+[2023-04-04 20:42:06 +0900] [34166] [INFO] Worker exiting (pid: 34166)
+[2023-04-04 20:42:06 +0900] [34159] [INFO] Worker exiting (pid: 34159)
+[2023-04-04 20:42:06 +0900] [34174] [INFO] Worker exiting (pid: 34174)
+[2023-04-04 20:42:06 +0900] [34167] [INFO] Worker exiting (pid: 34167)
+[2023-04-04 20:42:06 +0900] [34152] [INFO] Worker exiting (pid: 34152)
+[2023-04-04 20:42:06 +0900] [34144] [INFO] Worker exiting (pid: 34144)
+[2023-04-04 20:42:35 +0900] [34141] [INFO] Shutting down: Master
+[2023-04-04 20:42:35 +0900] [34345] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:42:35 +0900] [34345] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (34345)
+[2023-04-04 20:42:35 +0900] [34345] [INFO] Using worker: gthread
+[2023-04-04 20:42:35 +0900] [34348] [INFO] Booting worker with pid: 34348
+[2023-04-04 20:42:35 +0900] [34350] [INFO] Booting worker with pid: 34350
+[2023-04-04 20:42:35 +0900] [34351] [INFO] Booting worker with pid: 34351
+[2023-04-04 20:42:35 +0900] [34358] [INFO] Booting worker with pid: 34358
+[2023-04-04 20:42:35 +0900] [34359] [INFO] Booting worker with pid: 34359
+[2023-04-04 20:42:35 +0900] [34362] [INFO] Booting worker with pid: 34362
+[2023-04-04 20:42:35 +0900] [34367] [INFO] Booting worker with pid: 34367
+[2023-04-04 20:42:35 +0900] [34374] [INFO] Booting worker with pid: 34374
+[2023-04-04 20:50:03 +0900] [34345] [INFO] Handling signal: term
+[2023-04-04 20:50:04 +0900] [34358] [INFO] Worker exiting (pid: 34358)
+[2023-04-04 20:50:04 +0900] [34367] [INFO] Worker exiting (pid: 34367)
+[2023-04-04 20:50:04 +0900] [34348] [INFO] Worker exiting (pid: 34348)
+[2023-04-04 20:50:04 +0900] [34374] [INFO] Worker exiting (pid: 34374)
+[2023-04-04 20:50:04 +0900] [34351] [INFO] Worker exiting (pid: 34351)
+[2023-04-04 20:50:04 +0900] [34359] [INFO] Worker exiting (pid: 34359)
+[2023-04-04 20:50:04 +0900] [34362] [INFO] Worker exiting (pid: 34362)
+[2023-04-04 20:50:33 +0900] [34345] [INFO] Shutting down: Master
+[2023-04-04 20:50:33 +0900] [34860] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:50:33 +0900] [34860] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (34860)
+[2023-04-04 20:50:33 +0900] [34860] [INFO] Using worker: gthread
+[2023-04-04 20:50:33 +0900] [34863] [INFO] Booting worker with pid: 34863
+[2023-04-04 20:50:34 +0900] [34864] [INFO] Booting worker with pid: 34864
+[2023-04-04 20:50:34 +0900] [34865] [INFO] Booting worker with pid: 34865
+[2023-04-04 20:50:34 +0900] [34872] [INFO] Booting worker with pid: 34872
+[2023-04-04 20:50:34 +0900] [34873] [INFO] Booting worker with pid: 34873
+[2023-04-04 20:50:34 +0900] [34886] [INFO] Booting worker with pid: 34886
+[2023-04-04 20:50:34 +0900] [34899] [INFO] Booting worker with pid: 34899
+[2023-04-04 20:50:34 +0900] [34900] [INFO] Booting worker with pid: 34900
+[2023-04-04 20:51:50 +0900] [34860] [INFO] Handling signal: term
+[2023-04-04 20:51:50 +0900] [34872] [INFO] Worker exiting (pid: 34872)
+[2023-04-04 20:51:51 +0900] [34899] [INFO] Worker exiting (pid: 34899)
+[2023-04-04 20:51:51 +0900] [34886] [INFO] Worker exiting (pid: 34886)
+[2023-04-04 20:51:51 +0900] [34864] [INFO] Worker exiting (pid: 34864)
+[2023-04-04 20:51:51 +0900] [34863] [INFO] Worker exiting (pid: 34863)
+[2023-04-04 20:51:51 +0900] [34873] [INFO] Worker exiting (pid: 34873)
+[2023-04-04 20:51:51 +0900] [34865] [INFO] Worker exiting (pid: 34865)
+[2023-04-04 20:52:20 +0900] [34860] [INFO] Shutting down: Master
+[2023-04-04 20:52:20 +0900] [35106] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:52:20 +0900] [35106] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (35106)
+[2023-04-04 20:52:20 +0900] [35106] [INFO] Using worker: gthread
+[2023-04-04 20:52:20 +0900] [35110] [INFO] Booting worker with pid: 35110
+[2023-04-04 20:52:20 +0900] [35111] [INFO] Booting worker with pid: 35111
+[2023-04-04 20:52:20 +0900] [35118] [INFO] Booting worker with pid: 35118
+[2023-04-04 20:52:20 +0900] [35119] [INFO] Booting worker with pid: 35119
+[2023-04-04 20:52:20 +0900] [35126] [INFO] Booting worker with pid: 35126
+[2023-04-04 20:52:20 +0900] [35139] [INFO] Booting worker with pid: 35139
+[2023-04-04 20:52:20 +0900] [35140] [INFO] Booting worker with pid: 35140
+[2023-04-04 20:52:20 +0900] [35153] [INFO] Booting worker with pid: 35153
+[2023-04-04 20:52:47 +0900] [35106] [INFO] Handling signal: term
+[2023-04-04 20:52:47 +0900] [35119] [INFO] Worker exiting (pid: 35119)
+[2023-04-04 20:52:47 +0900] [35153] [INFO] Worker exiting (pid: 35153)
+[2023-04-04 20:52:47 +0900] [35111] [INFO] Worker exiting (pid: 35111)
+[2023-04-04 20:52:47 +0900] [35126] [INFO] Worker exiting (pid: 35126)
+[2023-04-04 20:52:47 +0900] [35118] [INFO] Worker exiting (pid: 35118)
+[2023-04-04 20:52:47 +0900] [35110] [INFO] Worker exiting (pid: 35110)
+[2023-04-04 20:53:17 +0900] [35106] [INFO] Shutting down: Master
+[2023-04-04 20:53:17 +0900] [35312] [INFO] Starting gunicorn 20.1.0
+[2023-04-04 20:53:17 +0900] [35312] [INFO] Listening at: unix:/home/smartfarm/바탕화면/SmartFarm/main/smartfarm.sock (35312)
+[2023-04-04 20:53:17 +0900] [35312] [INFO] Using worker: gthread
+[2023-04-04 20:53:17 +0900] [35315] [INFO] Booting worker with pid: 35315
+[2023-04-04 20:53:17 +0900] [35316] [INFO] Booting worker with pid: 35316
+[2023-04-04 20:53:17 +0900] [35317] [INFO] Booting worker with pid: 35317
+[2023-04-04 20:53:17 +0900] [35318] [INFO] Booting worker with pid: 35318
+[2023-04-04 20:53:17 +0900] [35319] [INFO] Booting worker with pid: 35319
+[2023-04-04 20:53:17 +0900] [35344] [INFO] Booting worker with pid: 35344
+[2023-04-04 20:53:17 +0900] [35345] [INFO] Booting worker with pid: 35345
+[2023-04-04 20:53:17 +0900] [35352] [INFO] Booting worker with pid: 35352

@@ -15,7 +15,6 @@ import Log
 app = Flask(__name__)
 
 # 몽고 DB 연결
-# my_client = MongoClient("mongodb://203.252.230.243:27017/")
 my_client = MongoClient()
 db = my_client['test_db']
 

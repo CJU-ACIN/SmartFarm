@@ -1,8 +1,5 @@
 from yolo.Preprocess_yolo import Preprocess
 from cnn.CheckDisease_cnn import CheckDisease
-import os
-import torch
-
 
 # Getting Image(matrix)
 class Classification:

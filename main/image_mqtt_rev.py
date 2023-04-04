@@ -24,7 +24,6 @@ class Image(threading.Thread):
         global count
         count = 0 
 
-        # connect_to = MongoClient("mongodb://203.252.230.243:27017/")
         connect_to = MongoClient("mongodb://localhost:27017/")
         mdb = connect_to.test_db
         collection = mdb.test_data_images
@@ -95,7 +94,7 @@ class Image(threading.Thread):
 
         client.connect('broker.hivemq.com', 1883)
 
-        client.subscribe('/test102234', 1)
+        client.subscribe('/test1022340555', 1)
 
         client.loop_forever()
 
