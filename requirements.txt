@@ -38,11 +38,11 @@ seaborn==0.12.2
 six==1.16.0
 smmap==5.0.0
 sympy==1.11.1
-torch==2.0.0+cpu
-torchaudio==2.0.1+cpu
-torchvision==0.15.1+cpu
 tqdm==4.65.0
 typing-extensions==4.4.0
 urllib3==1.26.13
 Werkzeug==2.2.3
 zipp==3.13.0
+torch==2.0.0+cpu
+torchaudio==2.0.1+cpu
+torchvision==0.15.1+cpu
