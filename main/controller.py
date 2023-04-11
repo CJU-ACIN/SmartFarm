@@ -15,7 +15,6 @@ class mqtt_controller:
 
     def main(self):
 
-
         def on_connect(client, userdata, flags, rc):
             # 연결이 성공적으로 된다면 완료 메세지 출력
             if rc == 0:

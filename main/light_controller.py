@@ -26,7 +26,7 @@ class mqtt_standlight:
         client.subscribe('smartfarm/stand_light', 1)
         client.connect(host = 'broker.hivemq.com', port = 1883)    # MQTT 서버에 연결
         client.loop_start()  
-        client.publish(topic="smartfarm/stand_light",payload= str(self.val), qos= 1)  
+        client.publish(topic="cju_acin_stand_light_data",payload= str(self.val), qos= 1)  
         client.loop_stop()
         client.disconnect()
 

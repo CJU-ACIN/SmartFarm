@@ -7,15 +7,13 @@ from flask import *
 from pymongo import MongoClient
 
 from controller import mqtt_controller
-# from sensor_rev import Sensor
 from image_controller import mqtt_image_start
-# from image_mqtt_rev import Image
 from light_controller import mqtt_standlight
 import Log
 app = Flask(__name__)
 
 # 몽고 DB 연결
-my_client = MongoClient()
+my_client = MongoClient("mongodb://smartfarm:acin*0446@203.252.230.243:27017/")
 db = my_client['test_db']
 
 db_col = db.test_data
@@ -47,7 +45,7 @@ def graph() :
             val = val1 +" "+ val2
             logger.info(val)
 
-            with mqtt_controller(val,'test/actuator') as m:
+            with mqtt_controller(val,'cju_acin_actuator_data') as m:
                 m.main()
 
         except : # 창문 환기 시스템에 값을 전달하지 않았을때
@@ -57,7 +55,7 @@ def graph() :
             val = int(request.form['water_active'])
 
             if request.form['button'] == '물 주기':
-                with mqtt_controller(val, 'test/send_data') as m:
+                with mqtt_controller(val, 'cju_acin_sensor_data') as m:
                     m.main()
                     logger.info("물 주기")
 
@@ -245,7 +243,7 @@ def chart_data() :
             water = "물 부족"
 
             # 일단 10초 동안 물을 보충함 => 최대로 물을 보충 할 수 있게 계산 필요
-            with mqtt_controller(10, 'test/send_data') as m:
+            with mqtt_controller(10, 'cju_acin_sensor_data') as m:
                 m.main()
                 logger.info('물을 자동으로 보충합니다.')
         else :
@@ -264,7 +262,7 @@ def chart_data() :
         }) # 수위 센서 텍스트
         
         yield f"data: {json_data}\n\n"
-        sleep(60)
+        # sleep(50)
         # sleep(61)  # 1분 마다 json 값 생성
 
     return Response(generate_raw_data(), mimetype='text/event-stream')
@@ -275,7 +273,7 @@ def actuator() :
         try:
             raw_data_actuator = db_col_actuator.find().sort("_id",-1).limit(1)[0]['actuator']
         except:
-            raw_data_actuator = 1
+            raw_data_actuator = 0
 
         try:
             image_path = db_col_images.find().sort("_id",-1).limit(1)[0]['image_path']
@@ -296,8 +294,9 @@ def actuator() :
             'image_path' : image_path,
             "standlight" : raw_data_standlight,
         })
+        
         yield f"data: {json_data}\n\n"
-        sleep(5)
+        # sleep(5)
     return Response(generate_raw_data(), mimetype='text/event-stream')
 
 if __name__ == '__main__' :

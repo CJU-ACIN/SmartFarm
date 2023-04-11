@@ -24,7 +24,7 @@ class Image(threading.Thread):
         global count
         count = 0 
 
-        connect_to = MongoClient("mongodb://localhost:27017/")
+        connect_to = MongoClient("mongodb://smartfarm:acin*0446@203.252.230.243:27017/")
         mdb = connect_to.test_db
         collection = mdb.test_data_images
         collection2 = mdb.test_data_images_date # 이미지 날짜  
@@ -72,7 +72,7 @@ class Image(threading.Thread):
 
                 send_data = image_path.split("/")[3:]
                 data = {"image_path":image_path, "image_date": now_db_date, "result": result}
-                logger.info(image_path)
+                logger.info(data)
                 count += 1
                     
                 # DB에 저장

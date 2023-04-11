@@ -17,7 +17,7 @@ class Sensor(threading.Thread):
     def run(self):
         logger.info(f"sub thread start {threading.currentThread().getName()}")
 
-        connect_to = MongoClient("mongodb://localhost:27017/")
+        connect_to = MongoClient("mongodb://smartfarm:acin*0446@203.252.230.243:27017/")
 
         # connection에서 test_db라는 카테고리 명을 만들고 
         # 그 밑에 collection 명을 test_dat으로 생성
@@ -45,8 +45,6 @@ class Sensor(threading.Thread):
 
 
         def on_message(client, userdata, msg):
-
-            #sleep(60)
             # 클라이언트에서 받아온 값을 디코딩
             data_split =str(msg.payload.decode("utf-8")).split(" ")
 
@@ -81,8 +79,6 @@ class Sensor(threading.Thread):
 
                 # DB에 data 저장
                 collection.insert_one(data)
-
-                logger.info(str(msg.payload.decode("utf-8")))
                 #print(data)
         
         # 새로운 클라이언트 생성
@@ -95,11 +91,9 @@ class Sensor(threading.Thread):
         client.on_message = on_message
 
         client.connect('broker.hivemq.com', 1883)
-
-        # test/send_data 라는 topic 구독
-        client.subscribe('test/send_data', 1) 
+        
+        client.subscribe('cju_acin_sensor_data', 1) 
 
         client.loop_forever()
-        #sleep(60)
 
         logger.info(f"sub thread end {threading.currentThread().getName()}")

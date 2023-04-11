@@ -114,7 +114,7 @@ class ResNet(nn.Module):
 
 
 # ResNet50
-def ResNet50(img_channels=3, num_classes = 2):
+def ResNet50(img_channels=3, num_classes = 3):
     return ResNet(block, [3, 4, 6, 3], img_channels, num_classes)
 
 ### RESNET END ###

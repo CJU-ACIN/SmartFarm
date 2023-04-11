@@ -28,4 +28,10 @@ class mqtt_image_start:
 
     if __name__ == '__main__':
         main()
+
+
+# 오전 6시, 오후 12시, 오후 6시 카메라 작동 함수
+def camera_schedule():
+    pass
+    
 #client.loop(2)        # timeout = 2초

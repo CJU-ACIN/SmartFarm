@@ -1,3 +1,513 @@
 2023-04-04 03:27:58,362 - 2023-04-03 00:00:00, 2023-04-05 00:00:00
 2023-04-04 03:49:05,785 - 2023-04-03 00:00:00, 2023-04-05 00:00:00
 2023-04-04 11:20:50,378 - 2023-04-03 00:00:00, 2023-04-05 00:00:00
+2023-04-06 17:07:29,667 - Exception on /image_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 166, in image_db
+    start_date = db_col_images_date.find_one()['image_date']
+TypeError: 'NoneType' object is not subscriptable
+2023-04-06 17:29:07,694 - 불을 켰습니다.
+2023-04-06 17:29:07,742 - [조명] 작업 완료
+2023-04-06 17:29:17,798 - 불을 껐습니다
+2023-04-06 17:29:17,800 - [조명] 작업 완료
+2023-04-06 17:30:57,482 - 불을 켰습니다.
+2023-04-06 17:30:57,484 - [조명] 작업 완료
+2023-04-06 17:31:04,520 - 불을 껐습니다
+2023-04-06 17:31:04,522 - [조명] 작업 완료
+2023-04-06 17:31:16,385 - 불을 켰습니다.
+2023-04-06 17:31:16,387 - [조명] 작업 완료
+2023-04-06 17:31:20,900 - 불을 껐습니다
+2023-04-06 17:31:20,902 - [조명] 작업 완료
+2023-04-06 17:55:41,535 - close 5
+2023-04-06 17:56:46,164 - open 5
+2023-04-06 17:56:57,636 - close 5
+2023-04-06 18:12:33,539 - 2023-04-06 00:00:00, 2023-04-07 00:00:00
+2023-04-06 18:14:22,239 - 2023-04-06 00:00:00, 2023-04-07 00:00:00
+2023-04-06 21:56:39,651 - 사진 찍기를 시작합니다.
+2023-04-06 21:58:59,289 - 사진 찍기를 시작합니다.
+2023-04-06 22:06:02,210 - 2023-04-06 00:00:00, 2023-04-07 00:00:00
+2023-04-06 22:08:52,008 - 2023-04-06 00:00:00, 2023-04-07 00:00:00
+2023-04-06 22:11:00,993 - 불을 켰습니다.
+2023-04-06 22:11:00,995 - [조명] 작업 완료
+2023-04-06 22:11:08,119 - 불을 껐습니다
+2023-04-06 22:11:08,122 - [조명] 작업 완료
+2023-04-06 22:11:19,277 - open 
+2023-04-06 22:11:36,344 - open 10
+2023-04-07 15:04:48,444 - 사진 찍기를 시작합니다.
+2023-04-07 15:05:03,166 - 사진 찍기를 시작합니다.
+2023-04-07 15:38:22,625 - 사진 찍기를 시작합니다.
+2023-04-07 15:42:59,587 - 불을 켰습니다.
+2023-04-07 15:42:59,589 - [조명] 작업 완료
+2023-04-07 15:43:05,054 - 불을 껐습니다
+2023-04-07 15:43:05,057 - [조명] 작업 완료
+2023-04-07 15:44:19,114 - 불을 켰습니다.
+2023-04-07 15:44:19,116 - [조명] 작업 완료
+2023-04-07 15:44:22,121 - 불을 껐습니다
+2023-04-07 15:44:22,123 - [조명] 작업 완료
+2023-04-07 15:44:26,771 - 물 주기
+2023-04-07 15:44:52,970 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-07 15:45:04,917 - 불을 켰습니다.
+2023-04-07 15:45:04,920 - [조명] 작업 완료
+2023-04-07 15:47:30,121 - open 10
+2023-04-07 15:47:50,012 - 불을 켰습니다.
+2023-04-07 15:47:50,013 - [조명] 작업 완료
+2023-04-07 15:47:54,235 - 불을 껐습니다
+2023-04-07 15:47:54,237 - [조명] 작업 완료
+2023-04-07 15:56:02,407 - 불을 켰습니다.
+2023-04-07 15:56:02,409 - [조명] 작업 완료
+2023-04-07 15:56:32,912 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-07 15:57:09,198 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-07 15:57:19,671 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-07 15:58:51,001 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-07 15:59:12,942 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-07 16:17:30,184 - 사진 찍기를 시작합니다.
+2023-04-07 16:18:17,072 - 사진 찍기를 시작합니다.
+2023-04-07 16:22:45,905 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-07 16:22:51,743 - Exception on /image_db [POST]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 178, in image_db
+    start_date = datetime.strptime(start_date, "%Y-%m-%d")
+  File "/usr/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y-%m-%d'
+2023-04-07 16:22:54,775 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-07 16:22:56,317 - Exception on /image_db [POST]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 178, in image_db
+    start_date = datetime.strptime(start_date, "%Y-%m-%d")
+  File "/usr/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y-%m-%d'
+2023-04-07 16:22:58,459 - Exception on /image_db [POST]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 178, in image_db
+    start_date = datetime.strptime(start_date, "%Y-%m-%d")
+  File "/usr/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y-%m-%d'
+2023-04-07 16:23:01,580 - Exception on /image_db [POST]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 178, in image_db
+    start_date = datetime.strptime(start_date, "%Y-%m-%d")
+  File "/usr/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y-%m-%d'
+2023-04-07 16:48:46,281 - 불을 켰습니다.
+2023-04-07 16:48:46,284 - [조명] 작업 완료
+2023-04-07 16:48:49,653 - 불을 껐습니다
+2023-04-07 16:48:49,655 - [조명] 작업 완료
+2023-04-07 16:49:00,236 - 물 주기
+2023-04-07 16:49:09,451 - 물 주기
+2023-04-07 16:49:19,248 - open 5
+2023-04-07 17:19:23,025 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-07 17:19:50,120 - 2023-04-06 00:00:00, 2023-04-08 00:00:00
+2023-04-09 02:05:10,303 - 불을 켰습니다.
+2023-04-09 02:05:10,350 - [조명] 작업 완료
+2023-04-09 02:05:41,089 - 불을 껐습니다
+2023-04-09 02:05:41,091 - [조명] 작업 완료
+2023-04-09 02:05:59,377 - Exception on /image_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 166, in image_db
+    start_date = db_col_images_date.find_one()['image_date']
+TypeError: 'NoneType' object is not subscriptable
+2023-04-09 02:20:44,818 - open 5
+2023-04-09 02:21:10,646 - open 5
+2023-04-09 02:23:43,405 - open 5
+2023-04-09 02:24:08,827 - close 5
+2023-04-09 02:24:28,389 - 불을 켰습니다.
+2023-04-09 02:24:28,391 - [조명] 작업 완료
+2023-04-09 02:24:31,220 - 불을 껐습니다
+2023-04-09 02:24:31,222 - [조명] 작업 완료
+2023-04-09 02:25:23,020 - open 5
+2023-04-09 02:26:09,091 - open 5
+2023-04-10 11:10:09,125 - Exception on /image_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 166, in image_db
+    start_date = db_col_images_date.find_one()['image_date']
+TypeError: 'NoneType' object is not subscriptable
+2023-04-10 12:49:19,722 - Exception on /sensor_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 119, in sensor_db
+    start_date = db_col.find_one()['rev_date']
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/topology.py", line 550, in _check_session_support
+    self._select_servers_loop(
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 642fd1e35b20c610a371e7f4, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused')>]>
+2023-04-10 13:46:54,192 - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 97, in graph
+    return render_template('index.html',first_data_graph = first_data_graph)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/smartfarm/바탕화면/SmartFarm/main/templates/base.html", line 102, in top-level template code
+    {% block content %}
+  File "/home/smartfarm/바탕화면/SmartFarm/main/templates/index.html", line 60, in block 'content'
+    {% for i in first_data_graph %}
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/cursor.py", line 1165, in _refresh
+    self.__send_message(q)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/cursor.py", line 1052, in __send_message
+    response = client._run_operation(
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1330, in _run_operation
+    return self._retryable_read(
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1448, in _retryable_read
+    return func(session, server, sock_info, read_pref)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1326, in _cmd
+    return server.run_operation(
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/server.py", line 134, in run_operation
+    _check_command_response(first, sock_info.max_wire_version)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/pymongo/helpers.py", line 181, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: command find requires authentication, full error: {'ok': 0.0, 'errmsg': 'command find requires authentication', 'code': 13, 'codeName': 'Unauthorized'}
+2023-04-10 13:48:55,105 - Exception on /image_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 166, in image_db
+    start_date = db_col_images_date.find_one()['image_date']
+TypeError: 'NoneType' object is not subscriptable
+2023-04-10 14:22:26,778 - open 5
+2023-04-10 14:23:14,426 - 불을 켰습니다.
+2023-04-10 14:23:14,464 - [조명] 작업 완료
+2023-04-10 14:23:20,385 - 불을 껐습니다
+2023-04-10 14:23:20,387 - [조명] 작업 완료
+2023-04-10 22:54:28,677 - Exception on /image_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 166, in image_db
+    start_date = db_col_images_date.find_one()['image_date']
+TypeError: 'NoneType' object is not subscriptable
+2023-04-10 23:10:07,845 - 불을 켰습니다.
+2023-04-10 23:10:07,847 - [조명] 작업 완료
+2023-04-10 23:10:15,327 - 불을 껐습니다
+2023-04-10 23:10:15,329 - [조명] 작업 완료
+2023-04-10 23:10:29,233 - 물 주기
+2023-04-10 23:10:58,417 - 물 주기
+2023-04-10 23:13:04,721 - 물 주기
+2023-04-10 23:30:12,426 - Exception on /sensor_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 144, in sensor_db
+    return render_template('sensor_db.html',data=results,start_date = send_start_date ,end_date = send_end_date,limit=limit,page=page,block_start=block_start,block_end=block_end,last_page_num=last_page_num,total_data=total_data)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/templates/sensor_db.html", line 5, in template
+    {% comment %} <h6 id="clock" style="color:black;">clock</h6> {% endcomment %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2023-04-10 23:31:01,504 - Exception on /sensor_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 144, in sensor_db
+    return render_template('sensor_db.html',data=results,start_date = send_start_date ,end_date = send_end_date,limit=limit,page=page,block_start=block_start,block_end=block_end,last_page_num=last_page_num,total_data=total_data)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/templates/sensor_db.html", line 5, in template
+    {% comment %} <h6 id="clock" style="color:black;">clock</h6> {% endcomment %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2023-04-10 23:31:05,938 - Exception on /sensor_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 144, in sensor_db
+    return render_template('sensor_db.html',data=results,start_date = send_start_date ,end_date = send_end_date,limit=limit,page=page,block_start=block_start,block_end=block_end,last_page_num=last_page_num,total_data=total_data)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/templates/sensor_db.html", line 5, in template
+    {% comment %} <h6 id="clock" style="color:black;">clock</h6> {% endcomment %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2023-04-10 23:32:03,877 - Exception on /sensor_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 144, in sensor_db
+    return render_template('sensor_db.html',data=results,start_date = send_start_date ,end_date = send_end_date,limit=limit,page=page,block_start=block_start,block_end=block_end,last_page_num=last_page_num,total_data=total_data)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/templates/sensor_db.html", line 5, in template
+    {% comment %} <h6 id="clock" style="color:black;">clock</h6> {% endcomment %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2023-04-11 00:33:37,514 - 불을 켰습니다.
+2023-04-11 00:33:37,520 - [조명] 작업 완료
+2023-04-11 00:33:52,025 - 불을 껐습니다
+2023-04-11 00:33:52,027 - [조명] 작업 완료
+2023-04-11 00:34:11,020 - 불을 껐습니다
+2023-04-11 00:34:11,022 - [조명] 작업 완료
+2023-04-11 00:34:26,914 - 불을 켰습니다.
+2023-04-11 00:34:26,915 - [조명] 작업 완료
+2023-04-11 00:35:49,840 - 불을 껐습니다
+2023-04-11 00:35:49,843 - [조명] 작업 완료
+2023-04-11 00:39:00,782 - 불을 켰습니다.
+2023-04-11 00:39:00,784 - [조명] 작업 완료
+2023-04-11 00:39:03,942 - 불을 껐습니다
+2023-04-11 00:39:03,944 - [조명] 작업 완료
+2023-04-11 00:39:32,000 - 불을 켰습니다.
+2023-04-11 00:39:32,003 - [조명] 작업 완료
+2023-04-11 00:39:34,653 - 불을 껐습니다
+2023-04-11 00:39:34,674 - [조명] 작업 완료
+2023-04-11 00:39:34,984 - 불을 껐습니다
+2023-04-11 00:39:34,986 - [조명] 작업 완료
+2023-04-11 00:39:37,569 - 불을 켰습니다.
+2023-04-11 00:39:37,570 - [조명] 작업 완료
+2023-04-11 00:39:40,913 - 불을 껐습니다
+2023-04-11 00:39:40,915 - [조명] 작업 완료
+2023-04-11 00:42:53,482 - Exception on /image_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 166, in image_db
+    start_date = db_col_images_date.find_one()['image_date']
+TypeError: 'NoneType' object is not subscriptable
+2023-04-11 00:42:55,030 - 물 주기
+2023-04-11 00:43:32,783 - 물 주기
+2023-04-11 00:43:48,488 - 불을 켰습니다.
+2023-04-11 00:43:48,490 - [조명] 작업 완료
+2023-04-11 00:43:52,120 - 불을 껐습니다
+2023-04-11 00:43:52,122 - [조명] 작업 완료
+2023-04-11 00:45:34,996 - 사진 찍기를 시작합니다.
+2023-04-11 00:49:32,721 - Exception on /image_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 166, in image_db
+    start_date = db_col_images_date.find_one()['image_date']
+TypeError: 'NoneType' object is not subscriptable
+2023-04-11 01:09:38,768 - close 5
+2023-04-11 01:09:48,436 - open 5
+2023-04-11 01:10:12,683 - open 5
+2023-04-11 01:16:41,187 - open 5
+2023-04-11 01:16:47,079 - close 5
+2023-04-11 01:20:31,054 - Exception on /image_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 166, in image_db
+    start_date = db_col_images_date.find_one()['image_date']
+TypeError: 'NoneType' object is not subscriptable
+2023-04-11 03:40:50,197 - Exception on /image_db [GET]
+Traceback (most recent call last):
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/smartfarm/바탕화면/smart_farm_gogo/venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/smartfarm/바탕화면/SmartFarm/main/main.py", line 166, in image_db
+    start_date = db_col_images_date.find_one()['image_date']
+TypeError: 'NoneType' object is not subscriptable
+2023-04-11 10:12:04,126 - 불을 켰습니다.
+2023-04-11 10:12:04,128 - [조명] 작업 완료
+2023-04-11 10:12:37,808 - 불을 껐습니다
+2023-04-11 10:12:37,810 - [조명] 작업 완료
