@@ -40,6 +40,8 @@ class Image(threading.Thread):
 
         def on_disconnect(client, userdata, flags, rc=0):
             logger.info("이미지 리시버가 클라이언트와 해제 되었습니다.")
+            client.loop_stop()
+            client.loop_start()
 
 
         def on_subscribe(client, userdata, mid, granted_qos):
@@ -69,6 +71,7 @@ class Image(threading.Thread):
 
                 # 받아온 사진 병충해 여부 판단 
                 result = Classification(image_path).predict()
+                #result = "정상-상추"
 
                 send_data = image_path.split("/")[3:]
                 data = {"image_path":image_path, "image_date": now_db_date, "result": result}

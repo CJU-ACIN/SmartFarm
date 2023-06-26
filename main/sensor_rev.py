@@ -38,6 +38,8 @@ class Sensor(threading.Thread):
 
         def on_disconnect(client, userdata, flags, rc=0):
             logger.info("센서 리시버 클라이언트와 해제 되었습니다.")
+            client.loop_stop()
+            client.loop_start()
 
 
         def on_subscribe(client, userdata, mid, granted_qos):
@@ -52,12 +54,14 @@ class Sensor(threading.Thread):
 
             if len(data_split) < 4 :
 
-                if "cm" in data_split[0]  :
+                if "단계" in data_split[0] :
+                    logger.info(f"데이터 저장 =>{data_split[0]}")
                     actuator = data_split[0]
                     data = {
                         "actuator" : actuator
                     }
                     collection2.insert_one(data)
+                    
                 else :
                     pass
             else :
@@ -82,7 +86,7 @@ class Sensor(threading.Thread):
                 #print(data)
         
         # 새로운 클라이언트 생성
-        client = mqtt.Client()
+        client = mqtt.Client(clean_session= True)
         # 콜백 함수
         
         client.on_connect = on_connect

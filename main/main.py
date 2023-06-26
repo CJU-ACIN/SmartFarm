@@ -34,15 +34,8 @@ def graph() :
     if request.method == 'POST':
 
         try : # 창문 환기 시스템에 값을 전달 헀을때
-            val1 = None
-            val2 = str(request.form['length'])
+            val = str(request.form['length'])
 
-            if request.form['button'] == 'close':
-                val1 = 'close'
-            elif request.form['button'] == 'open':
-                val1 = 'open'
-
-            val = val1 +" "+ val2
             logger.info(val)
 
             with mqtt_controller(val,'cju_acin_actuator_data') as m:
@@ -304,4 +297,4 @@ if __name__ == '__main__' :
     # 플라스크 실행
     kwargs = {'threaded':True, 'debug':True}
     flaskThread = Thread(target=app.run(), daemon=True, kwargs=kwargs).start()
-    # app.run(host= "0.0.0.0", debug=True, port=9999, threaded = True)
+    #app.run(host= "0.0.0.0", debug=True, port=9999, threaded = True)

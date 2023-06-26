@@ -1,14 +1,24 @@
 from sensor_rev import Sensor
 from image_mqtt_rev import Image
+import Log
 
-if __name__ == '__main__' :
-
-    # 센서 값 받아오는 sensor_rev.py 실행
+logger = Log.create_logger('threads')
+def main():
     t1 = Sensor("Sensor Thread")
     t2 = Image("Image Thread")
 
     t1.start()
-    t2.start()
-    
+    try:
+        t2.start()
+    except Exception as e:
+        logger.info(e)
+        t2.join()
+        t1.join()
+        return
+
     t1.join()
     t2.join()
+
+if __name__ == '__main__' :
+    while True:
+        main()
